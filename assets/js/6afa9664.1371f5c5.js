@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_write_it=self.webpackChunktech_write_it||[]).push([[339],{4126:e=>{e.exports=JSON.parse('{"permalink":"/TechWriteIt/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

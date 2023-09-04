@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_write_it=self.webpackChunktech_write_it||[]).push([[4635],{3695:e=>{e.exports=JSON.parse('{"permalink":"/TechWriteIt/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
