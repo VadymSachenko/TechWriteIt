@@ -12,7 +12,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://github.com',
-  baseUrl: '/',
+  baseUrl: '/TechWRiteIt/',
   organizationName: 'VadymSachenko', // Usually your GitHub org/user name.
   projectName: 'TechWriteIt', // Usually your repo name.
   onBrokenLinks: 'throw',
