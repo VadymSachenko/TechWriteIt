@@ -6,25 +6,34 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1F36FE;  /* Your primary color */
+  --ifm-color-primary-dark: #1D33E0;  /* A darker shade */
+  --ifm-color-primary-darker: #1B2FCB;  /* An even darker shade */
+  --ifm-color-primary-darkest: #182BB6;  /* The darkest shade */
+  --ifm-color-primary-light: #3A47FF;  /* A lighter shade */
+  --ifm-color-primary-lighter: #5860FF;  /* An even lighter shade */
+  --ifm-color-primary-lightest: #787DFF;  /* The lightest shade */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #FF9EDC;  /* Choose suitable colors for dark mode */
+  --ifm-color-primary-dark: #FF8BD0;
+  --ifm-color-primary-darker: #FF79C4;
+  --ifm-color-primary-darkest: #FF68B9;
+  --ifm-color-primary-light: #FFB1E9;
+  --ifm-color-primary-lighter: #FFC4F3;
+  --ifm-color-primary-lightest: #FFD7FC;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+  font-family: 'Chakra Petch', sans-serif;
 }
