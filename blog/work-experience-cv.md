@@ -9,8 +9,6 @@ authors:
     title: Author, creator, and owner of TechWriteIt
     url: https://github.com/VadymSachenko
     image_url: https://github.com/VadymSachenko.png
-tags: [docusaurus, docusaurus-v2]
-image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: false
 ---
 
