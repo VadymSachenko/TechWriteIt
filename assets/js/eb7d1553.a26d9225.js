@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_write_it=self.webpackChunktech_write_it||[]).push([[742],{9421:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/TechWriteIt/blog/tags/hola","allTagsPath":"/TechWriteIt/blog/tags","count":1}')}}]);
