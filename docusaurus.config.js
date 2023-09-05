@@ -12,7 +12,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://github.com',
-  baseUrl: '/TechWriteIt/',
+  baseUrl: '/',
   organizationName: 'VadymSachenko', // Usually your GitHub org/user name.
   projectName: 'TechWriteIt', // Usually your repo name.
   onBrokenLinks: 'throw',
@@ -59,17 +59,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'TechWriteIt',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'TechWriteIt',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -86,25 +86,21 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Get in touch',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/vadym-sachenko/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/VadymSachenko/TechWriteIt',
               },
             ],
           },
@@ -114,10 +110,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
