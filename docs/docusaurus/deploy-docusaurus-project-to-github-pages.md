@@ -1,39 +1,45 @@
 ---
-title: Deploy a docusaurus to GiHub pages
-description: Learn how to install a docusaurus project locally
-sidebar_position: 1
+title: Deploy a Docusaurus project to GiHub pages
+sidebar_label: Deploy
+description: Learn how to install a Docusaurus project locally
+sidebar_position: 2
 last_update: 
   date: 9/6/2023
 ---
 
-This document shows how to deploy a documsaurus project to GitHub pages.
+To make your website available and accessible to users on the internet, you need to deploy it. 
+This document shows how to configure and deploy a Docusaurus project to GitHub pages.
 
 ## Prerequisites
 
 * A GitHub account: To deploy your project to GitHub pages, you need a GitHub account.
 * A code editor (for example, [Visual Studio Code](https://code.visualstudio.com/)): A code editor for working with your Docusaurus project.
 
-
 ## Create a repository
 
 On GitHub, create a new repository for your project
 
 1. In the **Repositories** tab, click **New**.
-2. On the **Create a new repository** page that opens, do the following:
+
+![repositories-new](/docs/docusaurus/repositories-new.png)
+
+1. On the **Create a new repository** page that opens, do the following:
    1. For **Repository** name, enter a name for your new repository—for example, `my-new-repository`.
-   2. Optional: For **Description**, enter a description of you project.
+   2. Optional: For **Description**, enter a description of your project.
    3. Click **Create repository**. This creates a new repository and redirects you to your new repository's page. 
+
+![create-repository](/docs/docusaurus/create-repository.png)
 
 ## Configure docusaurus.config.js
 
-The `docusaurus.config.js` file serves as the central configuration file for your docusaurus project, allowing you to tailor your documentation website to your specific needs and preferences.
-By modifying this file, you can control many aspects of your site's behavior, deplyoment, and appearance.
+The `docusaurus.config.js` file serves as the central configuration file for your Docusaurus project, allowing you to tailor your documentation website to your specific needs and preferences.
+By modifying this file, you can control many aspects of your site's behavior, deployment, and appearance.
 
 For more details about `docusaurus.config.js`, in the official documenatation, see [`docusaurus.config.js`](https://docusaurus.io/docs/2.1.0/api/docusaurus-config)
 
 To be able to deploy your project, you need to adjust `docusaurus.config.js`:
 
-1. In your text editor, open `docusaurus.config.js` and adjust the `url`, `baseUrl`, `organization`, and `projectName` variables as follows:
+1. In your text editor, open `docusaurus.config.js` and adjust the `url`, `baseUrl`, `organization`, `projectName`, and `deploymentBranch` variables as follows:
 ```js
 const config = {
   ...
@@ -57,8 +63,8 @@ Replace the following placeholders:
 
 ```bash
 git init
-git  add .
-git commit -m 'first commit`
+git add .
+git commit -m 'first commit'
 ```
 
 2. Rename the default branch to `main`:
