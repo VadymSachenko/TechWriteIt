@@ -1,0 +1,8 @@
+{
+  "label": "docusaurus",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to set up a docusaurus project"
+  }
+}
