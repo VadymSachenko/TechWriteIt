@@ -4,7 +4,7 @@ sidebar_label: Deploy
 description: Learn how to install a Docusaurus project locally
 sidebar_position: 2
 last_update: 
-  date: 9/6/2023
+  date: 9/7/2023
 ---
 
 To make your website available and accessible to users on the internet, you need to deploy it. 
@@ -12,6 +12,7 @@ This document shows how to configure and deploy a Docusaurus project to GitHub p
 
 ## Prerequisites
 
+* Install [Docusaurus](/docs/docusaurus/install-docusaurus-project.md)
 * A GitHub account: To deploy your project to GitHub pages, you need a GitHub account.
 * A code editor (for example, [Visual Studio Code](https://code.visualstudio.com/)): A code editor for working with your Docusaurus project.
 
