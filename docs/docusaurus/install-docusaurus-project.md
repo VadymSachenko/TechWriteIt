@@ -1,13 +1,13 @@
 ---
 title: Install Docusaurus
 sidebar_label: Install
-description: Learn how to install a Docusaurus project locally
+description: Learn how to install Docusaurus locally
 sidebar_position: 1
 last_update: 
-  date: 9/6/2023
+  date: 9/7/2023
 ---
 
-This document shows how to install documsaurus locally.
+This document shows how to install Docusaurus locally.
 
 Docusaurus is an open-source documentation framework developed by Facebook that simplifies the process of creating and maintaining documentation websites. 
 This guide walks you through the steps to install Docusaurus locally on your development machine. 
@@ -18,14 +18,14 @@ For more information about Docusaurus and more detailed instructions, see [offic
 
 Before you begin, ensure you have the following tools installed on your system:
 
-- [Node.js](https://nodejs.org/): Docusaurus is built with JavaScript, and Node.js is required to run it.
-- [Yarn](https://yarnpkg.com/): A package manager used to manage Docusaurus dependencies.
-- Command Line Interface (CLI)—for example, [git](https://git-scm.com/downloads).
+- Install [Node.js](https://nodejs.org/): Docusaurus is built with JavaScript, and Node.js is required to run it.
+- Install [Yarn](https://yarnpkg.com/): A package manager used to manage Docusaurus dependencies.
+- Ensure you have Command Line Interface (CLI)—for example, [git](https://git-scm.com/downloads).
 
 
 To install Docusaurus, follow the steps in the sections below.
 
-### Create a new Docusaurus project
+## Create a new Docusaurus project
 
 On you PC, create a destination folder where you want to keep your Docusaurus project and run the following command:
 
@@ -38,7 +38,7 @@ Replace *`REPOSITORY_NAME`* with the name of the repository you created in the p
 This command initializes a new Docusaurus project with the classic template.
 
 
-### Install Node.Js packages or dependencies
+## Install Node.Js packages or dependencies
 
 1. Move into your newly created Docusaurus project directory:
 
@@ -53,7 +53,7 @@ npm install
 ```
 
 
-### Optional: Start the development server
+## Optional: Start the development server
 
 When Node.Js packages or dependencies get installed you can preview your documentation website locally. For this, from your project's folder, run the following command:
 
