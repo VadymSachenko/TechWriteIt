@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_write_it=self.webpackChunktech_write_it||[]).push([[856],{8647:e=>{e.exports=JSON.parse('{"label":"docs-as-code","permalink":"/TechWriteIt/blog/tags/docs-as-code","allTagsPath":"/TechWriteIt/blog/tags","count":1}')}}]);
