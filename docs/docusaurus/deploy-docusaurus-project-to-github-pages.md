@@ -12,9 +12,9 @@ This document shows how to configure and deploy a Docusaurus project to GitHub p
 
 ## Prerequisites
 
-* Install [Docusaurus](/docs/docusaurus/install-docusaurus-project.md)
-* A GitHub account: To deploy your project to GitHub pages, you need a GitHub account.
-* A code editor (for example, [Visual Studio Code](https://code.visualstudio.com/)): A code editor for working with your Docusaurus project.
+* Install [Docusaurus](/docs/docusaurus/install-docusaurus-project.md).
+* Get a GitHub account: To deploy your project to [GitHub](https://github.com/) pages, you need a GitHub account.
+* Install a code editor (for example, [Visual Studio Code](https://code.visualstudio.com/)): You need a code editor for working with your Docusaurus project.
 
 ## Create a repository
 
