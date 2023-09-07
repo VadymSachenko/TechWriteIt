@@ -1,14 +1,14 @@
 ---
 title: Deploy a Docusaurus project to GiHub pages
 sidebar_label: Deploy
-description: Learn how to install a Docusaurus project locally
+description: Learn how to deploy a Docusaurus to GiHub pages
 sidebar_position: 2
 last_update: 
   date: 9/7/2023
 ---
 
 To make your website available and accessible to users on the internet, you need to deploy it. 
-This document shows how to configure and deploy a Docusaurus project to GitHub pages.
+This document shows how to configure and deploy a Docusaurus project to GitHub pages, a hosting service provided by GitHub.
 
 ## Prerequisites
 
