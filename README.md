@@ -2,7 +2,7 @@
 
 TechWriteIt is built using [Docusaurus 2](https://docusaurus.io/).
 
-If you want to clone the deploy the website locally, follow the steps below.
+If you want to clone and deploy the website locally, follow the steps below.
 
 ## Clone the project
 
