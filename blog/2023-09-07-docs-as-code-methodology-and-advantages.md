@@ -1,7 +1,6 @@
 ---
 title: Docs-as-Code methodology and advantages
 description: Dvelve into Docs-as-Code specifics and it's advantages.
-sidebar_position: 2
 last_update: 
   date: 9/1/2023
 authors:
@@ -20,11 +19,10 @@ In this article, I want to explain what Docs-as-Code is and it's importance and 
 
 *Docs-as-Code* is a philosophy and methodology that integrates documentation seamlessly into the software development workflow. Instead of treating documentation as a standalone task, it treats documentation as code—a core component of the project that evolves alongside the codebase. In essence, Docs-as-Code promotes the idea that documentation should be versioned, reviewed, and updated in the same way as source code.
 
-## Typical documentation process
+## Traditional documentation process
 
 To get a better understanding of the docs-as-code approach and it's advantages, let's consider the traditional documentation process. 
-
-As a rule, documentation has often been a disjointed and isolated task that occurs at the tail end of a project. It usually involves:
+Documentation has often been a disjointed and isolated task that occurs at the tail end of a project. It usually involves the following:
 
 **Late inclusion**: Documentation is typically considered a separate and often secondary task. It's often addressed toward the end of the project when time constraints may lead to rushed and incomplete content.
 
