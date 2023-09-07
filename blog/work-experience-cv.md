@@ -1,7 +1,7 @@
 ---
 title: Work experience (CV)
 description: Learn about my experience.
-sidebar_position: 2
+sidebar_position: 1
 last_update: 
   date: 9/1/2023
 authors:
