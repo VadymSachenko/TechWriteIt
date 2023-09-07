@@ -1,41 +1,25 @@
-# Website
+## TechWriteIt
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+TechWriteIt is built using [Docusaurus 2](https://docusaurus.io/).
 
-### Installation
+If you want to clone the deploy the website locally, follow the steps below.
 
-```
-$ yarn
-```
+## Clone the project
 
-### Local Development
+Use GitHub for desktop or Git Bash (or alternative CLI) to clone the project.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+## Install Node.Js packages or dependencies
 
 ```
-$ yarn build
+$ npm i
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+### Deploy locally
 
 ```
-$ USE_SSH=true yarn deploy
+$ npm start
 ```
 
-Not using SSH:
+This command starts a local development server and opens up a browser window. 
+Most changes are reflected live without having to restart the server.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
