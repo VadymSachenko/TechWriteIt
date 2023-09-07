@@ -28,7 +28,7 @@ As a rule, documentation has often been a disjointed and isolated task that occu
 
 **Late inclusion**: Documentation is typically considered a separate and often secondary task. It's often addressed toward the end of the project when time constraints may lead to rushed and incomplete content.
 
-Static Nature: Traditional documentation is often static, with limited interactivity and responsiveness to changes in the project. It may not adapt well to dynamic and agile project environments.
+**Static nature**: Traditional documentation is often static, with limited interactivity and responsiveness to changes in the project. It may not adapt well to dynamic and agile project environments.
 
 **Silos**: Collaboration between developers, technical writers, and other stakeholders can be fragmented. This can result in misunderstandings, miscommunication, and errors in the documentation.
 
