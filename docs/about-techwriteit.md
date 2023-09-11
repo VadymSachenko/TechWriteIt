@@ -7,7 +7,7 @@ last_update:
 ---
 
 Hey there. My name is Vadym, and I'm a technical writer.
-*TechWriteIt* serves as a knowledgebase for my experiences and knowledge. 
+*TechWriteIt* serves as a knowledge base to share my experiences. 
 Here, I share everything that can be valuable from a technical writing perspective.
 My main purpose in maintaining this website is to have a platform to organize my work and to share my insights with fellow technical writers.
 
