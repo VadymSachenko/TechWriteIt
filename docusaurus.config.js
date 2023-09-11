@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const mermaid = require('mermaid')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -120,6 +121,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
 };
 
 module.exports = config;
