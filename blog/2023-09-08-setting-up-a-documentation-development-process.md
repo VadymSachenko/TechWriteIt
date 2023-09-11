@@ -71,7 +71,7 @@ For example, you can expand the documentation process steps as follows:
 
 :::
 
-## Exploring and integrating the development process
+## Exploring and integrating in the development process
 
 Now that you've established your documentation development process, you need to integrate it into the development process workflow. To do this, you should examine your team's development process workflow in detail and identify the most suitable point for integration. Analyze each step, understand the significance of each workflow status, the responsible parties, and the tasks involved.
 

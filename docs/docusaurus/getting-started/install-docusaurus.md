@@ -33,8 +33,7 @@ On you PC, create a destination folder where you want to keep your Docusaurus pr
 npx create-docusaurus@latest REPOSITORY_NAME classic
 ```
 
-Replace *`REPOSITORY_NAME`* with the name of the repository you created in the preceding step.
-
+Replace *`REPOSITORY_NAME`* with the name of our project. Note that if you have a repository on GitHub or GitLab for this project, then replace the placeholder with the repository's name.
 This command initializes a new Docusaurus project with the classic template.
 
 
@@ -67,5 +66,5 @@ That's it, now you have your local project up and running.
 
 ## Next steps
 
-[Deploy your project to GitHub pages](/docs/docusaurus/deploy-docusaurus-project-to-github-pages.md).
+[Deploy your project to GitHub pages](/docs/docusaurus/getting-started/deploy-a-docusaurus-project-to-github-pages.md).
 
