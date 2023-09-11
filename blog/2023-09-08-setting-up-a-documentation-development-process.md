@@ -34,8 +34,8 @@ Once you have a comprehensive list of required documents, you need to discuss an
 
 In this scenario, developers are accountable for creating installation and integration guides, while technical writers handle API and migration documents, as well as feature overviews and user guides. Therefore, you have two groups of responsible individuals:
 
-**Technical writers**: API documents, migration guides, feature overviews, and user guides.
-**Developers**: Installation and integration guides.
+* **Technical writers**: API documents, migration guides, feature overviews, and user guides.
+* **Developers**: Installation and integration guides.
 
 ## Setting up a documentation development process
 
