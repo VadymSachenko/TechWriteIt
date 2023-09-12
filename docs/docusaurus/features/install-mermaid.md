@@ -9,7 +9,7 @@ last_update:
 *[Mermaid](https://mermaid.js.org/intro/)* is a JavaScript-based tool that lets you create diagrams and flowcharts using simple text-based syntax.
 It's widely used for visualizing complex processes, data flows, and system architectures directly in your documentation.
 
-This document shows how to install and configure Mermaid in your Docusaurus project.
+This document should shows how to install and configure Mermaid in your Docusaurus project.
 
 ## Install Mermaid
 
@@ -50,4 +50,4 @@ graph TD;
 
 Now you have Mermaid installed and configured, and you can start creating diagrams and flowcharts.
 
-For details about markdown syntax,  in Mermaid official documentation, see [Syntax and Configuration](https://mermaid.js.org/intro/n00b-syntaxReference.html).
+For details about markdown syntax,  in Mermaid's official documentation, see [Syntax and Configuration](https://mermaid.js.org/intro/n00b-syntaxReference.html).

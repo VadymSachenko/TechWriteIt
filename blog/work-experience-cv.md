@@ -35,7 +35,7 @@ On this page, you can get aquentied with my work experience.
 **Achievements**:
 
 - Automated time-consuming and routine tasks and configured GitHub Actions workflows.
-- Improved applying of developer documenation style guide: configured and installed the [Vale.sh](https://vale.sh/docs/vale-cli/overview/) linter.
+- Improved the application of the developer documentation style guide: configured and installed the [Vale.sh](https://vale.sh/docs/vale-cli/overview/) linter.
 - Automated the "Internal Contributor of the Month" celebration.
 - Coached new TWs to develop a better understanding of internal documentation processes and rules.
 - Improved the developer and business user documentation creation process.
