@@ -20,7 +20,7 @@ Before you begin, ensure you have the following tools installed on your system:
 
 - Install [Node.js](https://nodejs.org/): Docusaurus is built with JavaScript, and Node.js is required to run it.
 - Install [Yarn](https://yarnpkg.com/): A package manager used to manage Docusaurus dependencies.
-- Ensure you have Command Line Interface (CLI)—for example, [git](https://git-scm.com/downloads).
+- Ensure you have a Command Line Interface (CLI)—for example, [git](https://git-scm.com/downloads).
 
 
 To install Docusaurus, follow the steps in the sections below.

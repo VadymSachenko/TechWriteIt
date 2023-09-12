@@ -1,4 +1,5 @@
 {
-    "vale.valeCLI.path": "/",
-    "vale.valeCLI.config": "${workspaceFolder}/.vale.ini"
+    "vale.valeCLI.path": "vale",
+    "vale.valeCLI.config": "${workspaceFolder}/.vale.ini",
+    "vale.valeCLI.minAlertLevel": "inherited"
 }

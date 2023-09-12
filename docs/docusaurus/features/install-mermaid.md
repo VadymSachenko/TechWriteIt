@@ -51,3 +51,5 @@ graph TD;
 Now you have Mermaid installed and configured, and you can start creating diagrams and flowcharts.
 
 For details about markdown syntax,  in Mermaid's official documentation, see [Syntax and Configuration](https://mermaid.js.org/intro/n00b-syntaxReference.html).
+
+should

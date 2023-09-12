@@ -11,7 +11,7 @@ authors:
 hide_table_of_contents: false
 ---
 
-On this page, you can get aquentied with my work experience.
+On this page, you can get acquainted with my work experience.
 
 ---
 
