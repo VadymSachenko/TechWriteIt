@@ -27,7 +27,7 @@ To install Docusaurus, follow the steps in the sections below.
 
 ## Create a new Docusaurus project
 
-On you PC, create a destination folder where you want to keep your Docusaurus project and run the following command:
+On your PC, create a destination folder where you want to keep your Docusaurus project and run the following command:
 
 ```bash
 npx create-docusaurus@latest REPOSITORY_NAME classic
@@ -37,7 +37,7 @@ Replace *`REPOSITORY_NAME`* with the name of our project. Note that if you have 
 This command initializes a new Docusaurus project with the classic template.
 
 
-## Install Node.Js packages or dependencies
+## Install Node.js packages or dependencies
 
 1. Move into your newly created Docusaurus project directory:
 

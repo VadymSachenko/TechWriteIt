@@ -92,7 +92,7 @@ git push -u origin main
 
 ## Deploy your project
 
-Deploy your project to GitHub pages:
+Deploy your project to GitHub Pages:
 
 ```bash
 GIT_USER='USER_NAME' yarn deploy
