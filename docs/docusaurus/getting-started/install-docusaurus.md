@@ -20,14 +20,14 @@ Before you begin, ensure you have the following tools installed on your system:
 
 - Install [Node.js](https://nodejs.org/): Docusaurus is built with JavaScript, and Node.js is required to run it.
 - Install [Yarn](https://yarnpkg.com/): A package manager used to manage Docusaurus dependencies.
-- Ensure you have Command Line Interface (CLI)—for example, [git](https://git-scm.com/downloads).
+- Ensure you have a Command Line Interface (CLI)—for example, [git](https://git-scm.com/downloads).
 
 
 To install Docusaurus, follow the steps in the sections below.
 
 ## Create a new Docusaurus project
 
-On you PC, create a destination folder where you want to keep your Docusaurus project and run the following command:
+On your PC, create a destination folder where you want to keep your Docusaurus project and run the following command:
 
 ```bash
 npx create-docusaurus@latest REPOSITORY_NAME classic
@@ -37,7 +37,7 @@ Replace *`REPOSITORY_NAME`* with the name of our project. Note that if you have 
 This command initializes a new Docusaurus project with the classic template.
 
 
-## Install Node.Js packages or dependencies
+## Install Node.js packages or dependencies
 
 1. Move into your newly created Docusaurus project directory:
 

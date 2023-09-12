@@ -13,7 +13,7 @@ tags:
   - docs-as-code
 ---
 
-In this article, I want to explain what Docs-as-Code is and it's importance and compare it to a typical documentation process.
+In this article, I want to explain what Docs-as-Code is and its importance and compare it to a typical documentation process.
 
 ## Defining Docs-as-Code
 
@@ -21,7 +21,7 @@ In this article, I want to explain what Docs-as-Code is and it's importance and 
 
 ## Traditional documentation process
 
-To get a better understanding of the docs-as-code approach and it's advantages, let's consider the traditional documentation process. 
+To get a better understanding of the docs-as-code approach and its advantages, let's consider the traditional documentation process. 
 Documentation has often been a disjointed and isolated task that occurs at the tail end of a project. It usually involves the following:
 
 **Late inclusion**: Documentation is typically considered a separate and often secondary task. It's often addressed toward the end of the project when time constraints may lead to rushed and incomplete content.
@@ -53,4 +53,4 @@ Now, that you know a bit more about the pitfalls of a traditional documentation 
 **Streamlined updates**: In traditional documentation processes, updating documents can be a cumbersome task. Docs-as-Code simplifies this by making documentation an integral part of code changes. This ensures that updates are prompt, and changes are well-documented, reducing the chances of information becoming obsolete.
 
 
-Compared the traditonal documentation process, Docs-as-Code allows you to bridge the gap between different teams on a project, fostering collaboration and agility while enhancing the quality of documentation. For technical writers, business analysts, project managers, product owners, and developers alike, embracing Docs-as-Code is more than a trend—it's a strategic shift that promises improved project outcomes, streamlined workflows, and documentation that is not just a byproduct but an integral part of the development process.
+Compared to the traditional documentation process, Docs-as-Code allows you to bridge the gap between different teams on a project, fostering collaboration and agility while enhancing the quality of documentation. For technical writers, business analysts, project managers, product owners, and developers alike, embracing Docs-as-Code is more than a trend—it's a strategic shift that promises improved project outcomes, streamlined workflows, and documentation that is not just a byproduct but an integral part of the development process.

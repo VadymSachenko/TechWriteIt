@@ -25,7 +25,7 @@ On GitHub, create a new repository for your project
 ![repositories-new](/docs/docusaurus/repositories-new.png)
 
 1. On the **Create a new repository** page that opens, do the following:
-   1. For **Repository** name, enter a name for your new repository—for example, `my-new-repository`.
+   1. For the **Repository** name, enter a name for your new repository—for example, `my-new-repository`.
    2. Optional: For **Description**, enter a description of your project.
    3. Click **Create repository**. This creates a new repository and redirects you to your new repository's page. 
 
@@ -92,7 +92,7 @@ git push -u origin main
 
 ## Deploy your project
 
-Deploy your project to GitHub pages:
+Deploy your project to GitHub Pages:
 
 ```bash
 GIT_USER='USER_NAME' yarn deploy
