@@ -1,5 +1,5 @@
 ---
-title: "HowTo: Setting a documentation development process"
+title: Setting a documentation development process
 description: Learn about the documentation development process and how to set it up on your project.
 last_update: 
   date: 9/11/2023

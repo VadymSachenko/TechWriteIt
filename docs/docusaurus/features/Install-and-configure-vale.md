@@ -61,7 +61,7 @@ vale sync
 
 ## Install and configure the Vale extension
 
-When you have `.vale.ini` created and initialized, you need to intsal and configure the Vale extension:
+When you have `.vale.ini` created and initialized, you need to install and configure the Vale extension:
 
 1. In the **Extensions** menu, find and install **Vale VSCode**.
 2. Right-click the extension and select **Extension Settings**.
