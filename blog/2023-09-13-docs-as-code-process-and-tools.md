@@ -75,19 +75,19 @@ To get a better understanding of this example, I recommend first reading the [Se
 3. The assignee makes necessary adjustments based on feedback and updates the PR.
 4. Once all reviewers approve the PR, it is merged into the `master` branch.
 
-### Step 6: Publishing (Automated)
+### Step 4: Publishing (Automated)
 
 1. Automated CI/CD pipelines detect changes to the main branch and trigger a build.
 2. The build process generates the static documentation site using Docusaurus.
 3. The updated documentation is automatically published on the project's website.
 
-### Step 7: Documentation lifecycle management (Jira)
+### Step 5: Documentation lifecycle management (Jira)
 
 1. The documentation ticket status is updated in Jira to reflect its progress.
 2. Documentation tasks are linked to the corresponding development epic or user story.
 3. Any documentation-related issues or updates are tracked in Jira.
 
-### Step 8: Iteration and continuous improvement
+### Step 6: Iteration and continuous improvement
 
 1. The team follows an agile approach, iterating on documentation during bi-weekly sprints.
 2. Documentation improvements, updates, or new documents are added as needed.
