@@ -1,6 +1,6 @@
 ---
 title: Docs-as-Code methodology and advantages
-description: Dvelve into Docs-as-Code specifics and it's advantages.
+description: Delve into Docs-as-Code specifics and its advantages.
 last_update: 
   date: 9/1/2023
 authors:
