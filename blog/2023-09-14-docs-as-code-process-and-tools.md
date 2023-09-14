@@ -120,7 +120,7 @@ Docs-as-Code tools provide unparalleled flexibility and control over documentati
 
 Beyond the tools themselves, Docs-as-Code encourages the adoption of engineering processes for managing documentation. Agile methodologies like Scrum can be applied to documentation projects, enhancing organization and efficiency. By aligning documentation processes with software development practices, teams can improve their workflows and deliver higher-quality documentation.
 
-### 6. Handling challenging factors
+### Handling challenging factors
 
 Docs-as-Code tools and practices offer solutions for addressing challenging documentation requirements. Localization, content reuse, versioning, authentication, and PDF generation are all areas where Docs-as-Code tools can excel with some creativity and technical expertise. Advanced templating and scripting logic in tools like Liquid, Docusaurus, or Jekyll empower authors to tackle complex tasks effectively.
 
