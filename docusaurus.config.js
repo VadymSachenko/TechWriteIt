@@ -27,13 +27,17 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      
+
       ({
+        gtag: {
+          trackingID: 'GTM-KD7NKN84',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -47,6 +51,12 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['TechWriteIt/node_modules', 'TechWriteIt/vale'],
+          filename: 'sitemap.xml',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -134,3 +144,4 @@ const config = {
 };
 
 module.exports = config;
+

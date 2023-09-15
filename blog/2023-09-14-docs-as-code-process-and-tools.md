@@ -75,7 +75,7 @@ To get a better understanding of this example, I recommend first reading the [Se
 3. The assignee makes necessary adjustments based on feedback and updates the PR.
 4. Once all reviewers approve the PR, it is merged into the `master` branch.
 
-### Step 4: Publishing (Automated)
+### Step 4: Automated publishing
 
 1. Automated CI/CD pipelines detect changes to the main branch and trigger a build.
 2. The build process generates the static documentation site using Docusaurus.
