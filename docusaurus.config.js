@@ -27,13 +27,17 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      
+
       ({
+        gtag: {
+          trackingID: 'GTM-KD7NKN84',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -140,3 +144,4 @@ const config = {
 };
 
 module.exports = config;
+
