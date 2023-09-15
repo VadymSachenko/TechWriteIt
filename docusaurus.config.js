@@ -48,6 +48,12 @@ const config = {
           editUrl:
             'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['TechWriteIt/node_modules', 'TechWriteIt/vale'],
+          filename: 'sitemap.xml',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
