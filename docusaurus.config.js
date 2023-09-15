@@ -69,6 +69,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      customLayout: require.resolve('./src/theme/layout.js'),
       navbar: {
         title: 'TechWriteIt',
         logo: {
