@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_write_it=self.webpackChunktech_write_it||[]).push([[454],{1770:e=>{e.exports=JSON.parse('{"label":"DDLC","permalink":"/TechWriteIt/blog/tags/ddlc","allTagsPath":"/TechWriteIt/blog/tags","count":1}')}}]);
