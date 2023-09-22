@@ -14,9 +14,14 @@ tags:
   - beginner
 ---
 
-In this article, I would like to discuss style guides, their role in the [documentation development process](blog/2023-09-08-setting-up-a-documentation-development-process.html), and the pros and cons of existing style guides and custom ones.
+In this article, I would like to discuss style guides, their role in the [documentation development process](/blog/2023-09-08-setting-up-a-documentation-development-process.md), and the pros and cons of existing style guides and custom ones.
 
-Similar to the software development process, where a team follows sequential steps to develop and deliver a product, documentation requires a similar approach. However, in addition to the need for a well-defined documentation development process, documents also require consistency, which is ensured by a *style guide*. A style guide is a comprehensive set of established conventions and guidelines that govern the creation and presentation of documentation. These guidelines encompass various aspects of writing, formatting, and structuring content to ensure uniformity and readability. Some well-known examples of style guides include Google's Style Guide, Microsoft's Style Guide, and The Chicago Manual of Style.
+Similar to the software development process, where a team follows sequential steps to develop and deliver a product, documentation requires a similar approach. However, in addition to the need for a well-defined documentation development process, documents also require consistency, which is ensured by a style guide. 
+
+A *style guide* is a comprehensive set of established conventions and guidelines that govern the creation and presentation of documentation. These guidelines encompass various aspects of writing, formatting, and structuring content to ensure uniformity and readability. Some well-known examples of style guides include these:
+* [Google developer documentation style guide](https://developers.google.com/style)
+* [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
+* [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
 
 ## Problems addressed by style guides and their benefits
 
@@ -36,7 +41,7 @@ When you realize the need for a style guide, you will likely consider two option
 
 Your project's documentation style, format, and other requirements might be highly specific, necessitating a tailored approach. For example, if you work for a healthcare IT company that develops software for medical practitioners, your documentation style guide would need to address strict regulatory requirements for handling patient data. Generic style guides like those from Google or Microsoft may not cover these aspects adequately. Your custom style guide would specify how to document data encryption procedures, user access controls, and compliance with healthcare regulations, ensuring that your documentation aligns with the industry's unique demands. However, designing a custom style guide has its advantages and pitfalls.
 
-#### Advantages of a custom style guide
+### Advantages of a custom style guide
 
 **Tailored to your technology stack**: Existing style guides like Google's or Microsoft's are generic and may not address the intricacies of your specific technology stack. Your style guide can provide guidance on how to document code snippets, configuration files, and workflows unique to your projects.
 
@@ -48,7 +53,7 @@ Your project's documentation style, format, and other requirements might be high
 
 **Compliance and regulations**: Depending on your industry, your documentation may need to adhere to specific compliance standards or regulations, such as GDPR or HIPAA. A custom style guide can provide guidelines for documenting sensitive information, ensuring that your documentation complies with legal requirements.
 
-#### Pitfalls of a custom style guide
+### Pitfalls of a custom style guide
 
 **Incomplete coverage**: It's nearly impossible to cover all edge cases and scenarios at once. Building a style guide is an iterative process that may require continuous updates. Consequently, you can never be sure that your style guide includes everything you need, and when you write a new document, there might be breaches, unaddressed rules, formatting issues, or wording not covered in your style guide. As a result, you may need to simultaneously update your style guide and work on your task.
 
@@ -66,7 +71,7 @@ Creating a new documentation style guide is always a substantial challenge, and 
 
 The easiest and often suitable approach for most projects is to select an existing style guide that aligns with your needs. However, even this option has its advantages and disadvantages, which you should weigh when making a decision.
 
-#### Advantages of using an existing style guide
+### Advantages of using an existing style guide
 
 **Established best practices**: Existing style guides are often based on established best practices in the field. By adopting one, you benefit from the collective wisdom and expertise of the industry.
 
@@ -76,9 +81,9 @@ The easiest and often suitable approach for most projects is to select an existi
 
 **Interoperability**: Aligning with a widely recognized style guide enhances the likelihood that your documentation will be interoperable with other projects and industry standards, improving usability and acceptance.
 
-**Automated checks**: For well-known style guides like Google and Microsoft, there are ways to adopt them through automation, using tools such as the [Vale linter](https://vale.sh/). If you want to start using Vale, refer to the [Install and configure Vale](docs/docusaurus/features/install-and-configure-vale.html) instructions.
+**Automated checks**: For well-known style guides like Google and Microsoft, there are ways to adopt them through automation, using tools such as the [Vale linter](https://vale.sh/). If you want to start using Vale, refer to the [Install and configure Vale](/docs/docusaurus/features/install-and-configure-vale) instructions.
 
-#### Weaknesses of using an existing style guide
+### Weaknesses of using an existing style guide
 
 **Lack of specificity**: Existing style guides are designed to be general and may not cover all the specific needs of your project. You may encounter situations where the guide doesn't provide clear guidance on how to handle certain types of content or industry-specific terminology.
 
