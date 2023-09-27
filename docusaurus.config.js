@@ -38,6 +38,10 @@ const config = {
           trackingID: 'GTM-KD7NKN84',
           anonymizeIP: true,
         },
+        googleAnalytics: {
+          trackingID: 'G-TZ0WLQNT0N',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
