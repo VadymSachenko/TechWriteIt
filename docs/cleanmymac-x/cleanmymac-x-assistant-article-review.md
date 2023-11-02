@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 This document reviews the [CleanMyMac X Assistant](https://macpaw.com/support/cleanmymac/knowledgebase/cleanmymac-assistant) article based on [Apple Style Guide](https://support.apple.com/guide/applestyleguide/welcome/1.0/web), [Google developer documentation style guide](https://developers.google.com/style) and my personal experience as a user of the knowledge base.
 
-Each section consist of the mistake explanation, reference to the rules that proofes the point, and the tab pane, which shows how the current mistake looks like and suggests the change to fix it.
+Each section consists of the mistake explanation, a reference to the rules that prove the point, and the tab pane, which shows what the current mistake looks like and suggests the change to fix it.
 
 ## Lists
 
@@ -44,14 +44,14 @@ The example below shows the current version of sentences and suggested changes.
 
 ## Em dashes
 
-Don’t put sapces before and after em dashes(—). For details about the rule, in [Apple Style Guide](https://support.apple.com/guide/applestyleguide/d-apsg7af4f5d0/web), see "dash (em)".
+Don’t put spaces before and after em dashes(—). For details about the rule, in [Apple Style Guide](https://support.apple.com/guide/applestyleguide/d-apsg7af4f5d0/web), see "dash (em)".
 
 
 :::info
 
-Though the absance of spaces is not clearly stated in Apple Style Guide, the examples and use cases provided in it don’t have spaces before and after em-dashes.
+Though the absence of spaces is not clearly stated in Apple Style Guide, the examples and use cases provided in it don’t have spaces before and after em-dashes.
 
-Yet, Google style guide has a clear rules about the usage of em-dashes. Therefore, I used it as additional evidence. For details, see [Em dashes](https://developers.google.com/style/dashes#em-dashes).
+Yet, the Google style guide has clear rules about the usage of em-dashes. Therefore, I used it as additional evidence. For details, see [Em dashes](https://developers.google.com/style/dashes#em-dashes).
 
 :::
 
@@ -75,7 +75,7 @@ The example below shows the current version of sentences and suggested changes.
 
 ## Highlighting and word choice
 
-If you wnat tohighlight a word or phrase, use *italics*. For details about the rule, in [Apple Style Guide](https://support.apple.com/en-lk/guide/applestyleguide/apsg346ef241/1.0/web/1.0), see "italics (n.), italic (adj.)".
+If you want to highlight a word or phrase, use *italics*. For details about the rule, in [Apple Style Guide](https://support.apple.com/en-lk/guide/applestyleguide/apsg346ef241/1.0/web/1.0), see "italics (n.), italic (adj.)".
 
 Also, do not use *hover over*; use *hold the pointer over* instead. For details about the rule, in [Apple Style Guide](https://support.apple.com/guide/applestyleguide/h-apsg9dac5903/1.0/web/1.0), see "hover (v.)".
 
@@ -94,15 +94,15 @@ The example below shows the current version of sentences and suggested changes.
 
 ## Parentheses
 
-Some readers tend to ignore phases and words in parentheses. So I recommend avoid putting important information in parentheses.
-Though it’s okay to use parentheses if you are sure that even if the content is ingnored, this won’t impact the meaning of the santence.
+Some readers tend to ignore phrases and words in parentheses. So I recommend avoiding putting important information in parentheses.
+However, it’s okay to use parentheses if you are sure that even if the content is ignored, this won’t impact the meaning of the sentence.
 Alternatively, you can use em dashes or move out the text as a separate sentence.
 
 :::info
 
 Though I couldn’t find a respecrive rule in Apple Stely Guide, I found many examples in the guide that followed the mentioned above practice. 
 
-Yet, Google style guide has a clear rules about the usage of parentheses. Therefore, I used it as additional evidence. For details, see [Parentheses](https://developers.google.com/style/parentheses).
+Yet, the Google style guide has clear rules about the usage of parentheses. Therefore, I used it as additional evidence. For details, see [Parentheses](https://developers.google.com/style/parentheses).
 
 :::
 
@@ -123,8 +123,8 @@ Yet, Google style guide has a clear rules about the usage of parentheses. Theref
 
 ## Task-based headings
 
-The "Silent mode" section is an instruction that shows how to turn off recommendataion is Assistant. Usually, documents such as instructions, quick start guides, and HowTos use task-based headings.
-For a task-based heading, it’s recommended to use the *imperative mood* rather than a noun phrase, wich is usually used for conceptual topics.
+The "Silent mode" section is an instruction that shows how to turn off the recommendations in Assistant. Usually, documents such as instructions, quick start guides, and HowTos use task-based headings.
+For a task-based heading, it’s recommended to use the *imperative mood* rather than a noun phrase, which is usually used for conceptual topics.
 
 ![task-based-title](/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/task-based-title.png)
 
