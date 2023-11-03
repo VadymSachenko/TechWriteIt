@@ -1,7 +1,7 @@
 ---
 title: CleanMyMac X Assistant article review
 description: This document gives general feedback to the CleanMyMac X Assistant article.
-sidebar*position: 1
+sidebar_position: 1
 last*update: 
   date: 11/3/2023
 ---
