@@ -9,7 +9,7 @@ last*update:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This document provides a review of the [CleanMyMac X Assistant](https://macpaw.com/support/cleanmymac/knowledgebase/cleanmymac-assistant) article, based on the [Apple Style Guide](https://support.apple.com/guide/applestyleguide/welcome/1.0/web), [Google developer documentation style guide](https://developers.google.com/style), and my personal experience as a knowledge base user.
+This document provides a review of the [CleanMyMac X Assistant](https://macpaw.com/support/cleanmymac/knowledgebase/cleanmymac-assistant) article, based on the [Apple Style Guide](https://support.apple.com/guide/applestyleguide/welcome/1.0/web), [Google developer documentation style guide](https://developers.google.com/style), and my personal experience as a user.
 
 The sections has the followng stricture: the explanation to an insistency, mistake or typoo, a reference to the rules that prove the point, and the tab pane, which shows what the current mistake looks like and suggests the change to fix it.
 

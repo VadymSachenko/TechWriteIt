@@ -9,7 +9,7 @@ last_update:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-This document offers comprehensive feedback on the CleanMyMac X knowledge base.
+This document offers a comprehensive review of the [CleanMyMac X Knowledge Base](https://macpaw.com/support/cleanmymac/knowledgebase).
 
 ## The "Edit this page" button is missing
 
