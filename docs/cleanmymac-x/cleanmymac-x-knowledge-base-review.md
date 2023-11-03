@@ -1,9 +1,9 @@
 ---
-title: CleanMyMac X knowledge base review
+title: CleanMyMac X Knowledge Base review
 description: This document reviewes and gives feedback to CleanMyMac X Knowledge Base
-sidebar_position: 1
+sidebar_position: 2
 last_update: 
-  date: 11/2/2023
+  date: 11/3/2023
 ---
 
 import Tabs from '@theme/Tabs';
