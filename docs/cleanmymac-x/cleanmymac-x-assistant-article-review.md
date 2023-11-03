@@ -1,9 +1,9 @@
 ---
 title: CleanMyMac X Assistant article review
 description: This document gives general feedback to the CleanMyMac X Assistant article.
-sidebar*position: 2
+sidebar*position: 1
 last*update: 
-  date: 11/2/2023
+  date: 11/3/2023
 ---
 
 import Tabs from '@theme/Tabs';
