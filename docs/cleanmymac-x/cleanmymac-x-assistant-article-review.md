@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 This document provides a review of the [CleanMyMac X Assistant](https://macpaw.com/support/cleanmymac/knowledgebase/cleanmymac-assistant) article, based on the [Apple Style Guide](https://support.apple.com/guide/applestyleguide/welcome/1.0/web), [Google developer documentation style guide](https://developers.google.com/style), and my personal experience as a user.
 
-The sections has the followng stricture: the explanation to an insistency, mistake or typoo, a reference to the rules that prove the point, and the tab pane, which shows what the current mistake looks like and suggests the change to fix it.
+The sections below have the following structure: the explanation of inconsistencies, mistakes, or typos, a reference to the rules that prove the point, and the tab pane, which shows what the current mistake looks like and suggests a change to fix it.
 
 ## Style guide inconsistencies and personal recommendations
 
@@ -19,7 +19,7 @@ This section highlights identified inconsistencies with the Apple Style Guide an
 
 ### Lists
 
-Complex list items that form complete sentences should end with a period. For detailed information on this rule, refer to the [Apple Style Guide](https://support.apple.com/guide/applestyleguide/l-apsg087a9dba/web), specifically the section on "lists (bulleted)."
+Complex list items that form complete sentences should end with a period. For detailed information on this rule, refer to the [Apple Style Guide](https://support.apple.com/guide/applestyleguide/l-apsg087a9dba/web), specifically the section on "lists (bulleted)".
 
 :::info Optional Adjustments
 
@@ -138,7 +138,7 @@ This section assesses the article's structure and provides recommendations for i
 
 ### Recommendations in Assistant section: Problem
 
-The "Recommendations in Assistant" section explains that the "Assistant" button lets users to achieve or perform the following:
+The "Recommendations in Assistant" section explains that the "Assistant" button lets users achieve or perform the following:
 * Suggest further cleanup, optimization, and security steps
 * Remind about uncompleted operations and the necessity of regular cleanup
 * Give tips to use CleanMyMac X more effectively
@@ -161,10 +161,10 @@ To make the bulleted list in the "Recommendations in Assistant" section more foc
 <Tabs>
   <TabItem value="current version" label="❌Current version">
     <ul>
-  <li>Suggest further cleanup, optimization, and security steps.</li>
-  <li>Remind about uncompleted operations and necessity of the regular cleanup.</li>
-  <li>Give tips to use CleanMyMac X more effectively.</li>
-  <li>Provide statistics on how helpful CleanMyMac X has been for you.</li>
+  <li>Suggest further cleanup, optimization, and security steps</li>
+  <li>Remind about uncompleted operations and necessity of the regular cleanup</li>
+  <li>Give tips to use CleanMyMac X more effectively</li>
+  <li>Provide statistics on how helpful CleanMyMac X has been for you</li>
 </ul>
 
   </TabItem>
@@ -184,13 +184,13 @@ To make the bulleted list in the "Recommendations in Assistant" section more foc
 
 #### Silent mode: Problem
 
-The "Silent mode" section provides instructions on how to turn off the recommendations in Assistant. Typically, documents such as instructions, quick start guides, and How-Tos use task-based headings. For task-based headings, it's recommended to use the *imperative mood* rather than a noun phrase, which is typically used for conceptual topics. In this case, this rule is not followed.
+The "Silent mode" section provides instructions on how to turn off the recommendations in Assistant. Typically, documents such as instructions, quick start guides, and How-Tos use task-based headings. For task-based headings, it's recommended to use the *imperative mood* rather than a noun phrase, which is typically used for conceptual topics. In this case, this rule is not followed. For details, see 
 
 ![task-based-title](/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/task-based-title.png)
 
 #### Silent mode: Suggested solution
 
-To make the title task-based, I suggest renaming it to "Turn on silent mode."
+To make the title task-based, I suggest renaming it to "Turn on silent mode"
 
 You can switch the tabs in the following example to view the current version of sentences and the suggested changes.
 
