@@ -193,8 +193,6 @@ While I couldn’t find a respective rule in the Apple Style Guide, I found rele
 
 :::
 
-For details, see 
-
 ![task-based-title](/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/task-based-title.png)
 
 ### Silent mode section: Suggested solution
