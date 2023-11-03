@@ -42,9 +42,9 @@ Search is the most critical tool in any knowledge base. New users may not be as 
 
 ## Knowledge base structure
 
-* _Hierarchical Sidebar_: Currently, all articles are located on a single page, and the sidebar merely redirects users to respective sections. This navigation approach differs from what users are accustomed to on other documentation portals and knowledge bases I have used or contributed to. Implementing a traditional sidebar, where each sidebar item has its own dedicated page, may enhance the user experience.
+* _Hierarchical sidebar_: Currently, all articles are located on a single page, and the sidebar merely redirects users to respective sections. This navigation approach differs from what users are accustomed to on other documentation portals and knowledge bases I have used or contributed to. Implementing a traditional sidebar, where each sidebar item has its own dedicated page, may enhance the user experience.
 
-* _Navigation Items Structure_: For new users who want to explore the product but haven't yet downloaded the app, it may not be obvious that "Cleanup," "Protection," "Speed," "Applications," and "Files" represent the app's features. I suggest adding a category that separates these documents from the rest, improving user navigation.
+* _Navigation items structure_: For new users who want to explore the product but haven't yet downloaded the app, it may not be obvious that "Cleanup," "Protection," "Speed," "Applications," and "Files" represent the app's features. I suggest adding a category that separates these documents from the rest, improving user navigation.
 
     <Tabs>
     <TabItem value="current version" label="❌ Current Version" >
@@ -70,7 +70,6 @@ Search is the most critical tool in any knowledge base. New users may not be as 
 ## Breadcrumbs and URL segments
 
 Breadcrumbs and URL segments are essential for helping users understand their location within a website. It's crucial to maintain consistency between them to prevent user confusion. When a breadcrumb name differs from the URL segment or the page title, it may lead to confusion.
-
 
 See the following exaxmple for more details.
 
