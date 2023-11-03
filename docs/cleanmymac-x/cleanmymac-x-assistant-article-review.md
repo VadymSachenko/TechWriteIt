@@ -189,7 +189,7 @@ The "Silent mode" section provides instructions on how to turn off the recommend
 
 :::info
 
-While I couldn’t find a respective rule in the Apple Style Guide, I found relevant examples in the [iPhone User Guide](https://support.apple.com/en-bh/guide/iphone/welcome/ios) and other articles in the CleanMyMac X Knowledge Base. Additionally, the Google style guide provides clear rules on the task-based titles. For more details, see [Headings and titles](https://developers.google.com/style/headings).
+While I couldn’t find a respective rule in the Apple Style Guide, I found relevant examples in the [iPhone User Guide](https://support.apple.com/en-bh/guide/iphone/welcome/ios) and other articles in the CleanMyMac X Knowledge Base. Additionally, the Google style guide provides clear rules on the task-based titles. For more details about the rule, see [Headings and titles](https://developers.google.com/style/headings).
 
 :::
 
