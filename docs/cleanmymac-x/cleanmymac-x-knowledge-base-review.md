@@ -1,6 +1,6 @@
 ---
 title: CleanMyMac X Knowledge Base review
-description: This document reviewes and gives feedback to CleanMyMac X Knowledge Base
+description: This document reviews and gives feedback to the CleanMyMac X Knowledge Base
 sidebar_position: 2
 last_update: 
   date: 11/3/2023
@@ -17,18 +17,18 @@ One important feature that is currently missing is the "Edit this page" button. 
 
 ## Copying section links
 
-Currently, it is not possible to refer to a specific section within a document by either copying the link next to a section or manually adding a section reference tag to a link. I would reccommend adding this functionality.
+Currently, it is not possible to refer to a specific section within a document by either copying the link next to a section or manually adding a section reference tag to a link. I would recommend adding this functionality.
 
 ## Link names
 
-Ensure that your links have meaningful text. When linking to a page with the title "MacPaw Account," avoid vague phrases like "this link" or "this page." Instead, use the title of the destination page.
+Ensure that your links have meaningful text. When linking to a page with the title "MacPaw Account," avoid vague phrases like "this link" or "this page". Instead, use the title of the destination page.
 
 <Tabs>
   <TabItem value="current version" label="❌ Current Version" >
     Continue reading this article if you own a license activation number. Otherwise, switch to <a href="https://macpaw.com/support/cleanmymac/knowledgebase/macpaw-account">this page</a> to learn more about the MacPaw Account. 
   </TabItem>
   <TabItem value="Correct version" label="✔️ Suggested Change" default>
-    Continue reading this article if you own a license activation number. Otherwise, to learn more about MacPaw Account, see <a href="https://macpaw.com/support/cleanmymac/knowledgebase/macpaw-account">Account</a>.
+    Continue reading this article if you own a license activation number. Otherwise, to learn more about the MacPaw Account, see <a href="https://macpaw.com/support/cleanmymac/knowledgebase/macpaw-account">Account</a>.
   </TabItem>
 </Tabs>
 
@@ -71,7 +71,7 @@ Search is the most critical tool in any knowledge base. New users may not be as 
 
 Breadcrumbs and URL segments are essential for helping users understand their location within a website. It's crucial to maintain consistency between them to prevent user confusion. When a breadcrumb name differs from the URL segment or the page title, it may lead to confusion.
 
-See the following exaxmple for more details.
+See the following example for more details.
 
 <Tabs>
   <TabItem value="current version" label="❌Current version" >
