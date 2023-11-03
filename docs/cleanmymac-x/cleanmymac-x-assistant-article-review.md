@@ -160,6 +160,7 @@ To make the bulleted list in the "Recommendations in Assistant" section more foc
 
 <Tabs>
   <TabItem value="current version" label="❌Current version">
+  <p>Just click the Assistant button and let it:</p>
     <ul>
   <li>Suggest further cleanup, optimization, and security steps</li>
   <li>Remind about uncompleted operations and necessity of the regular cleanup</li>
