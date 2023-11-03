@@ -9,53 +9,86 @@ last_update:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+This document offers comprehensive feedback on the CleanMyMac X knowledge base.
 
-This document gives general feedback to the CleanMyMac X knowledge base.
+## The "Edit this page" button is missing
 
-## "Edit this document" button
-
-Documents lacks the "Edit this page" button. Adding this button would allow both internal and external users to contribute to documentation, driving positive impact on the knowlede bas quality.
-At my ex company we incorporated this approach. This resulted in incoming multiple internal and external pull requests, which allowed us to reduce stylistic and grammar issues and thus improve quality.
+One important feature that is currently missing is the "Edit this page" button. By adding this button, you can facilitate both internal and external users' contributions to the documentation. This approach has proven effective in my previous company, where we received numerous internal and external pull requests. This not only helped us address stylistic and grammar issues but also significantly improved the overall quality of the knowledge base.
 
 ## Copying section links
 
-You can't refer to a specific section within a document, neither by copying the link next to a section, nor by manually adding a section reference tag to a link.
+Currently, it is not possible to refer to a specific section within a document by either copying the link next to a section or manually adding a section reference tag to a link. I would reccommend adding this functionality.
 
 ## Link names
 
-Use meaningful link text. If your link refers to a page with the title "MacPaw Account.", don't use such phrases as "this link" or "this page" to refer to the page. Instead, use the title. Instead, give it the name of the page where it leads to.
-
-:::info
-
-Though the absance of spaces is not clearly stated in Apple Style Guide, the examples and use cases provided in it don't have spaces before and after em-dashes.
-
-Also, Google style guide has a clear rules about the usage of em-dashes. Therefore, I used it as additional confirmation. For details, see [Em dashes](https://developers.google.com/style/dashes#em-dashes).
-
-:::
+Ensure that your links have meaningful text. When linking to a page with the title "MacPaw Account," avoid vague phrases like "this link" or "this page." Instead, use the title of the destination page.
 
 <Tabs>
-  <TabItem value="current version" label="❌Current version" >
-    Go on reading this article if you own a license activation number. Otherwise, switch to <a href="https://macpaw.com/support/cleanmymac/knowledgebase/macpaw-account">this page</a> to learn more about MacPaw Account. 
+  <TabItem value="current version" label="❌ Current Version" >
+    Continue reading this article if you own a license activation number. Otherwise, switch to <a href="https://macpaw.com/support/cleanmymac/knowledgebase/macpaw-account">this page</a> to learn more about the MacPaw Account. 
   </TabItem>
-  <TabItem value="Correct version" label="✔️ Suggested change" default>
-    Go on reading this article if you own a license activation number. Otherwise, to learn more about MacPaw Account, see <a href="https://macpaw.com/support/cleanmymac/knowledgebase/macpaw-account">Account</a>.
+  <TabItem value="Correct version" label="✔️ Suggested Change" default>
+    Continue reading this article if you own a license activation number. Otherwise, to learn more about MacPaw Account, see <a href="https://macpaw.com/support/cleanmymac/knowledgebase/macpaw-account">Account</a>.
   </TabItem>
 </Tabs>
 
-
 ## Style guide linter
 
-If possible, I would recommend using a style guide linters, such as [Vale.sh](https://vale.sh/). Such tools lets you be consistent about following the style guide rules and you don't need to manually check all rules that you may have missed out.
-Though, Vale does not offer Apple Style Guide out of the box, meaning you'll need to configure the rules on your own.
+To make sure your documents are consistent, I recommend using style guide linters, such as [Vale.sh](https://vale.sh). These tools ensure consistency in adhering to style guide rules, sparing you from manual rule-checking. However, please note that Vale does not include the Apple Style Guide by default, so you'll need to configure the rules yourself.
 
-## Search
+## Search functionality
 
-Search is the most important tool in every knowledge base as new users may not be as experineced with the usage of the knowledge base as experience ones or the team the created it.
-This mean, each user will likely to use search to find a needed article.
+Search is the most critical tool in any knowledge base. New users may not be as experienced in navigating the knowledge base, making the search function their primary navigation tool. Currently, when I use the knowledge base search, I encounter difficulty in finding the articles I need. This might be due to the search applying to all MacPaw products simultaneously, without categorization. As a result, users need to input more specific queries, which consumes more time than expected.
 
-When I, as a user, use the knowledge base search, I struggle to find an article I need. Probably the reason is that it's applied to all MacPaw products at at time, without the division by categories. 
-This means users need to use more specific queries, which takes notably more time than expected.
+## Knowledge base structure
 
-## Structure
+* _Hierarchical Sidebar_: Currently, all articles are located on a single page, and the sidebar merely redirects users to respective sections. This navigation approach differs from what users are accustomed to on other documentation portals and knowledge bases I have used or contributed to. Implementing a traditional sidebar, where each sidebar item has its own dedicated page, may enhance the user experience.
 
-The knowledge looks well-structured.
+* _Navigation Items Structure_: For new users who want to explore the product but haven't yet downloaded the app, it may not be obvious that "Cleanup," "Protection," "Speed," "Applications," and "Files" represent the app's features. I suggest adding a category that separates these documents from the rest, improving user navigation.
+
+    <Tabs>
+    <TabItem value="current version" label="❌ Current Version" >
+            <picture>
+            <img
+                src={require('/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/features-no-categories.png').default}
+                alt="No category"
+            />
+        </picture>
+    </TabItem>
+    <TabItem value="Correct version" label="✔️ Suggested Change" default>
+            <picture>
+            <img
+                src={require('/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/features-category.png').default}
+                alt="Feature category"
+            />
+        </picture>
+    </TabItem>
+    </Tabs>
+
+* _CleanMyMac X overview page_: When I visit your knowledge base as a user, I expect to find basic and advanced information about the product. However, I struggle to locate a dedicated page about CleanMyMac X and its features. It appears that the knowledge base assumes that users already possess some knowledge about CleanMyMac X and its features and know where to go to find needed information. To address this, I recommend adding an introductory article about CleanMyMac X, explaining its purpose, features, and functionality.
+
+## Breadcrumbs and URL segments
+
+Breadcrumbs and URL segments are essential for helping users understand their location within a website. It's crucial to maintain consistency between them to prevent user confusion. When a breadcrumb name differs from the URL segment or the page title, it may lead to confusion.
+
+
+See the following exaxmple for more details.
+
+<Tabs>
+  <TabItem value="current version" label="❌Current version" >
+    <picture>
+        <img
+            src={require('/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/bradcramps-actual.png').default}
+            alt="Example banner"
+        />
+    </picture>
+  </TabItem>
+  <TabItem value="Correct version" label="✔️ Suggested change" default>
+    <picture>
+        <img
+            src={require('/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/bradcramps-suggested.png').default}
+            alt="Example banner"
+        />
+    </picture>
+  </TabItem>
+</Tabs>

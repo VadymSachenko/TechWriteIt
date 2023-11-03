@@ -27,7 +27,7 @@ Complex list items that are complete sentences should end with a period. For det
 
 :::info Optional adjustments
 
-Google developer guide recommends having a list with a complete sentence, not a partial one that’s completed by the list items. I advocate for this rules as well. For me, it just feels right that an introdution sentence has a complete structure. However, the absence of this specifc rule in Apple Style Guide means following this recommendation is completely optional. 
+Google developer guide recommends having a list with a complete sentence, not a partial one that’s completed by the list items. I advocate for this rules as well. For me, it just feels right when an introdution sentence has a complete structure. However, the absence of this specifc rule in Apple Style Guide means following this recommendation is completely optional. 
 
 :::
 
@@ -95,11 +95,13 @@ If you want to highlight a word or phrase, use *italics*. For details about the 
 
 Also, do not use *hover over*; use *hold the pointer over* instead. For details about the rule, in [Apple Style Guide](https://support.apple.com/guide/applestyleguide/h-apsg9dac5903/1.0/web/1.0), see "hover (v.)".
 
-![other-suggestions-bold-comma](/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/other-suggestions-bold-comma.png)
+
 
 #### Suggested changes
 
-The example below shows the current version of sentences and suggested changes. 
+The example below shows the current version of sentences and suggested changes.
+
+![other-suggestions-bold-comma](/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/other-suggestions-bold-comma.png)
 
 <Tabs>
   <TabItem value="current version" label="❌Current version">
