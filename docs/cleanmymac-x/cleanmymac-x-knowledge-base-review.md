@@ -83,7 +83,7 @@ See the following exaxmple for more details.
         />
     </picture>
   </TabItem>
-  <TabItem value="Correct version" label="✔️ Suggested change" default>
+  <TabItem value="Correct version" label="✔️ Suggested changes" default>
     <picture>
         <img
             src={require('/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/bradcramps-suggested.png').default}
