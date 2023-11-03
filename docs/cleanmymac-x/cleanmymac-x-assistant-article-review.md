@@ -1,7 +1,7 @@
 ---
 title: CleanMyMac X Assistant article review
 description: This document gives general feedback to the CleanMyMac X Assistant article.
-sidebar*position: 1
+sidebar_position: 1
 last*update: 
   date: 11/3/2023
 ---
@@ -21,9 +21,9 @@ This section highlights identified inconsistencies with the Apple Style Guide an
 
 Complex list items that form complete sentences should end with a period. For detailed information on this rule, refer to the [Apple Style Guide](https://support.apple.com/guide/applestyleguide/l-apsg087a9dba/web), specifically the section on "lists (bulleted)".
 
-:::info Optional Adjustments
+:::info Optional adjustments
 
-The Google developer guide recommends using complete sentences in lists, which I endorse as well. I believe that having an introductory sentence with a complete structure enhances readability and clarity. It's important to note that this specific rule is optional due to its absence in the Apple Style Guide.
+The Google developer guide recommends using complete sentences in lists, which I endorse as well. I believe that having an introductory sentence with a complete structure enhances readability and clarity. It’s important to note that this specific rule is optional due to its absence in the Apple Style Guide.
 
 :::
 
@@ -108,11 +108,11 @@ The example below shows the current version of sentences and suggested changes.
 
 ### Parentheses
 
-Readers may often overlook phrases and words in parentheses. Therefore, it's advisable to avoid placing essential information in parentheses. However, it's acceptable to use parentheses when you are confident that even if the content within them is ignored, it won't impact the sentence's meaning. Alternatively, you can use em dashes or rephrase the text as a separate sentence.
+Readers may often overlook phrases and words in parentheses. Therefore, it’s advisable to avoid placing essential information in parentheses. However, it’s acceptable to use parentheses when you are confident that even if the content within them is ignored, it won’t impact the sentence’s meaning. Alternatively, you can use em dashes or rephrase the text as a separate sentence.
 
 :::info
 
-While I couldn't find a respective rule in the Apple Style Guide, I found numerous examples in the guide that adhere to the practice mentioned above. Additionally, the Google style guide provides clear rules on the use of parentheses. For more details, see [Parentheses](https://developers.google.com/style/parentheses).
+While I couldn’t find a respective rule in the Apple Style Guide, I found numerous examples in the guide that adhere to the practice mentioned above. Additionally, the Google style guide provides clear rules on the use of parentheses. For more details, see [Parentheses](https://developers.google.com/style/parentheses).
 
 :::
 
@@ -134,7 +134,7 @@ The example below shows the current version of sentences and the suggested chang
 
 ## Article structure analysis
 
-This section assesses the article's structure and provides recommendations for improvements.
+This section assesses the article’s structure and provides recommendations for improvements.
 
 ### Recommendations in Assistant section: Problem
 
@@ -144,7 +144,7 @@ The "Recommendations in Assistant" section explains that the "Assistant" button 
 * Give tips to use CleanMyMac X more effectively
 * Provide statistics on how helpful CleanMyMac X has been for you
 
-However, if you examine the GIF animation preceding the list, you'll notice that the Assistant has *six* features:
+However, if you examine the GIF animation preceding the list, you’ll notice that the Assistant has *six* features:
 * Get rid of junk.
 * Detect Mail clutter.
 * Clear large files.
@@ -152,9 +152,9 @@ However, if you examine the GIF animation preceding the list, you'll notice that
 * Analyze disk space.
 * Optimize your Mac.
 
-This discrepancy makes the list confusing as it's unclear which explanation corresponds to each feature.
+This discrepancy makes the list confusing as it’s unclear which explanation corresponds to each feature.
 
-### Recommendations in Assistant: Suggested solution
+### Recommendations in Assistant section: Suggested solution
 
 To make the bulleted list in the "Recommendations in Assistant" section more focused and comprehensible, I recommend restructuring it as follows:
 
@@ -183,13 +183,19 @@ To make the bulleted list in the "Recommendations in Assistant" section more foc
   </TabItem>
 </Tabs>
 
-#### Silent mode: Problem
+### Silent mode section: Problem
 
-The "Silent mode" section provides instructions on how to turn off the recommendations in Assistant. Typically, documents such as instructions, quick start guides, and How-Tos use task-based headings. For task-based headings, it's recommended to use the *imperative mood* rather than a noun phrase, which is typically used for conceptual topics. In this case, this rule is not followed. For details, see 
+The "Silent mode" section provides instructions on how to turn off the recommendations in Assistant. Typically, documents such as instructions, quick start guides, and How-Tos use task-based headings. For task-based headings, it’s recommended to use the *imperative mood* rather than a noun phrase, which is typically used for conceptual topics. In this case, this rule is not followed. 
+
+:::info
+
+While I couldn’t find a respective rule in the Apple Style Guide, I found relevant examples in the [iPhone User Guide](https://support.apple.com/en-bh/guide/iphone/welcome/ios) and other articles in the CleanMyMac X Knowledge Base. Additionally, the Google style guide provides clear rules on the task-based titles. For more details about the rule, see [Headings and titles](https://developers.google.com/style/headings).
+
+:::
 
 ![task-based-title](/docs/cleanmymac-x/cleanmymac-x-assistant-article-review/task-based-title.png)
 
-#### Silent mode: Suggested solution
+### Silent mode section: Suggested solution
 
 To make the title task-based, I suggest renaming it to "Turn on silent mode"
 
