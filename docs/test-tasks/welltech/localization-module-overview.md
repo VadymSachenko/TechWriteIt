@@ -3,7 +3,7 @@ title: Localization module overview
 description: Learn about the Localization module of the Tool
 sidebar_position: 1
 last_update: 
-  date: 11/13/2023
+  date: 11/11/2023
 ---
 
 The Tool's *Localization* module lets you manage localizations with the assistance of the third-party service Crowdin. 
@@ -52,4 +52,4 @@ sequenceDiagram
 
 ## Related user guides
 
-[Request localization](/docs/test-tasks/welltech/request-localization.md)
+<!-- [Request localization](/docs/test-tasks/welltech/request-localization.md) -->

@@ -3,10 +3,10 @@ title: Request localization
 description: Learn how to make localization request 
 sidebar_position: 3
 last_update: 
-  date: 11/13/2023
+  date: 11/11/2023
 ---
 
-This document shows how to request localization in the Tool.
+This document shows how to request localization in the Tool's [Localization module](/docs/test-tasks/welltech/localization-module-overview.md).
 
 ## Prerequisites
 
@@ -17,9 +17,6 @@ A prerequisites section lists steps that need to be done before proceeding with 
 Due to the absence of information about the UI elements, this section exists as an example only.
 
 :::
-
-Log in to the Tool.
-
 
 ## Create a localization request
 
@@ -32,7 +29,6 @@ Log in to the Tool.
 You can't send keys that already exist (duplicates) in the system. When you click **Send**, the Tool checks the entered information, and if the key already exists, the "Key already exists" error message is displayed.
 
 ::: 
-
 
 ## Reference information: Request localization
 
