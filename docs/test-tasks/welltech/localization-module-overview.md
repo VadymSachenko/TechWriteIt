@@ -6,22 +6,20 @@ last_update:
   date: 11/11/2023
 ---
 
-The Tool's *Localization* module lets you manage localizations with the assistance of the third-party service Crowdin. 
+The Tool's *Localization* module lets you manage localizations with the assistance of the third-party service Crowdin.
 
-## Localization workflow
+## Localization flow
 
-Localization requests in the Localization module go through the following process:
+When you create a request for text translation, the requests go through the following steps:
 
 1. A user logs in to the Tool, creates a new key, and provides the required information.
-2. The Tool sends a request to Crowdin to create the new key.
-3. Crowdin processes the request. if the key exists, it displays an error message and creates a new key otherwise.
-4. The localization team is notified about the new key.
-5. The localization team performs the translation for the new key.
-6. The new key and its translations are sent back to the Tool.
-7. The user is notified about the successful translation of the new key.
+2. The Tool checks if the key exists. If it does, an error message is displayed. Otherwise, the Tool sends a request to Crowdin to create the new key.
+3. Crowdin processes the request and the localization team is notified about the new key.
+4. The localization team performs the translation for the new key.
+5. The new key and its translations are sent back to the Tool.
+6. The user is notified about the successful translation of the new key.
 
-
-The following sequence diagram shows the localization process:
+The following diagram illustrates the localization process:
 
 ```mermaid
 sequenceDiagram
@@ -34,7 +32,7 @@ sequenceDiagram
     User ->> Tool: Open "Localization" module
     User ->> Tool: Select "Key" section
     User ->> Tool: Click "Create new key"
-    User ->> Tool: Enter info about new key
+    User ->> Tool: Enter info about new key (key name, description, text)
 
     Tool ->> Tool: Key exists?
     alt Yes
@@ -52,4 +50,4 @@ sequenceDiagram
 
 ## Related user guides
 
-<!-- [Request localization](/docs/test-tasks/welltech/request-localization.md) -->
+[Request localization](/docs/test-tasks/welltech/request-localization.md)
