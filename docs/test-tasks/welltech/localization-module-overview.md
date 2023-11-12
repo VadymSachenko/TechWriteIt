@@ -10,14 +10,14 @@ The Tool's *Localization* module lets you manage localizations with the assistan
 
 ## Localization process flow
 
-When you [create a request](/docs/test-tasks/welltech/request-localization.md) for text translation, the requests go through the following steps:
+When you [create a request](/docs/test-tasks/welltech/create-localization-requests.md) to translate text, the requests go through the following steps:
 
-1. A user logs in to the Tool, creates a new key, and provides the required information.
-2. The Tool checks with Crowdin if the new key already exists. If it does, an error message is displayed. Otherwise, the Tool sends a request to Crowdin to create the new key.
-3. Crowdin processes the request and the localization team is notified about the new key.
-4. The localization team performs the translation for the new key and saves the translation.
+1. A user logs in to the Tool and creates a new key.
+2. The Tool checks with Crowdin if the key already exists. If it does, the Tool displays an error. Otherwise, the Tool sends a request to Crowdin to create the new key.
+3. Crowdin processes the request and the localization team receives a notification about the new key.
+4. The localization team translates the key and saves the translation.
 5. Crowdin sends the key and its translations back to the Tool.
-6. The user is notified about the successful translation of the new key.
+6. The user is notified about the successful translation.
 
 The following diagram illustrates the localization process:
 
@@ -51,4 +51,4 @@ sequenceDiagram
 ```
 ## Related user guides
 
-[Request localization](/docs/test-tasks/welltech/request-localization.md)
+[Request localization](/docs/test-tasks/welltech/create-localization-requests.md)

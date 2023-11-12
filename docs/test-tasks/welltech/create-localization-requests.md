@@ -1,5 +1,5 @@
 ---
-title: Request localization
+title: Create localization requests
 description: Learn how to make localization request 
 sidebar_position: 3
 last_update: 
@@ -18,6 +18,11 @@ Due to the absence of information about the UI elements, this section exists as 
 
 :::
 
+* Prerequisite 1
+* Prerequisite 2
+
+Review the [reference information](#reference-information-create-a-localization-request) before you start or look up the necessary information as you go through the process.
+
 ## Create a localization request
 
 1. In the Tool's admin pane, select **Tools&nbsp<span aria-label="and then">></span> Localization**.
@@ -35,7 +40,7 @@ Sending keys that already exist (duplicates) is not allowed. When clicking **Sen
 
 ::: 
 
-## Reference information: Request localization
+## Reference information: Create a localization request
 
 | ATTRIBUTE | DESCRIPTION |
 |---|---|
