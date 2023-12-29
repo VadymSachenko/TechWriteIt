@@ -1,7 +1,0 @@
-/* Import Google Fonts Montserrat and Helvetica Neue */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Helvetica+Neue&display=swap');
-
-/* Apply the font stack to all elements */
-* {
-  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
-}
