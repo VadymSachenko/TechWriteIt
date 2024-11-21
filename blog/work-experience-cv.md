@@ -1,11 +1,11 @@
 ---
 title: Work experience (CV)
-description: Learn about my experience.
+description: Explore my professional experience.
 last_update: 
-  date: 9/7/2023
+  date: 11/21/2024
 authors:
   - name: Vadym Sachenko
-    title: Author, creator, and owner of TechWriteIt
+    title: Tech writer; author, creator, and owner of TechWriteIt
     url: https://github.com/VadymSachenko
     image_url: https://github.com/VadymSachenko.png
 hide_table_of_contents: false
@@ -13,84 +13,96 @@ hide_table_of_contents: false
 
 On this page, you can get acquainted with my work experience.
 
+## Welltech: Dec. 2023–Present
 ---
 
-## Spryker Systems: Dec. 2020–Sep. 2023
-
-**Position**: Technical Writer
+**Position**: Senior Technical Writer
 
 **Responsibilities**:
 
-- Managing developer documentation.
-- Writing business user guides, API documents, and feature overviews.
-- Reviewing existing documentation and documentation pull requests (PRs) created by devs, POs, and other technical writers (TWs).
-- Testing Postman collections to gather data required for documenting API.
-- Creating GIF files to demonstrate how features work visually.
-- Migrating documentation from Confluence/[Document360](https://document360.com/) to Jekyll+GitHub to implement the docs-as-code approach.
-- Following Google developer documentation style guide rules.
-- Analyzing and performing requests on documentation changes from internal and external users.
-- Shaping documentation development life cycle (DDLC).
-- Using AI (ChatGPT) to improve DDLC and accelerate/automate time-consuming processes.
+- Developing and integrating a documentation ticket workflow into the development process (Asana+GitLab+Docusaurus+Confluence).
+- Building a knowledge base from scratch.
+- Writing and maintaining user guides, feature overviews, and concept documents.
+- Gathering information and interviewing SMEs to write and update documentation.
+- Using AI to create custom scripts and prompts that automate documentation review, updates, and translations (Script+Asana API+GPT/GPT API).
+- Conducting end-user surveys to assess satisfaction with documentation.
 
 **Achievements**:
 
-- Automated time-consuming and routine tasks and configured GitHub Actions workflows.
-- Improved the application of the developer documentation style guide: configured and installed the [Vale.sh](https://vale.sh/docs/vale-cli/overview/) linter.
-- Automated the "Internal Contributor of the Month" celebration.
-- Coached new TWs to develop a better understanding of internal documentation processes and rules.
-- Improved the developer and business user documentation creation process.
+- Created, presented, and integrated documentation delivery processes.
+- Automated repetitive tasks, including documentation review, updates, and translation.
+- Reduced time spent on release notes writing and delivery by 90% through automation.
+- Built a comprehensive knowledge base from scratch.
 
-**Skills**:
-
-GitHub, Jekyll, VS Code, Postman, Jira, Confluence, Snagit, draw.io, Google&nbsp;developer&nbsp;documentation&nbsp;style&nbsp;guide, Markdown, Document360, ScreenToGif.
-
+## Spryker Systems: Dec. 2020–Aug. 2023
 ---
- 
-## EPAM Systems: Aug. 2019–Dec. 2020
 
 **Position**: Technical Writer
 
 **Responsibilities**:
 
-- Performed editing and quality assurance checks on documentation work completed by instruction designers and developers.
-- Cooperated with technical SMEs to gather inputs and ensure that documents were technically accurate.
-- Created and supported developer instructions, readme files, user guides, security and compliance documents, and high-level architecture diagrams.
+- Managed developer documentation, ensuring accuracy and clarity.
+- Wrote user guides, API documents, and feature overviews.
+- Reviewed documentation PRs created by developers, product owners, and other technical writers.
+- Tested Postman collections to gather data for documenting APIs.
+- Created GIFs to visually demonstrate feature functionality.
+- Migrated documentation from Confluence/Document360 to Jekyll+GitHub to implement the docs-as-code approach.
+- Handled documentation change requests from internal and external users.
+- Shaped and refined the documentation development life cycle (DDLC).
+- Used AI (ChatGPT) to improve DDLC and accelerate time-intensive tasks.
 
-**Skills**:
+**Achievements**:
 
-Jira, Confluence, Microsoft Office, Snagit, draw.io, MS Visio, ABBYY Screenshot Reader, Microsoft Manual of Style
+- Automated repetitive tasks using GitHub Actions workflows.
+- Enhanced adherence to the developer documentation style guide by configuring and implementing the Vale.sh linter.
+- Automated the "Internal Contributor of the Month" celebration initiative.
+- Mentored new technical writers on internal documentation processes and standards.
+- Improved the overall developer and business user documentation creation workflow.
 
+## EPAM Systems: Aug. 2019–Dec. 2020
 ---
+
+**Position**: Technical Writer
+
+**Responsibilities**:
+
+- Conducted editing and quality assurance for documentation produced by instructional designers and developers.
+- Collaborated with technical SMEs to ensure technical accuracy of documentation.
+- Created and maintained developer instructions, readme files, user guides, security and compliance documents, and high-level architecture diagrams.
 
 ## Kuehne + Nagel: Jun. 2018–Jul. 2019
+---
 
 **Position**: Technical Writer
 
 **Responsibilities**:
 
-- Maintained Process Catalogue: documented Warehouse Management System (WMS) operational processes and updated them according to new releases of the software.
-- Documented WMS releases: translated documentation of each development into non-technical (understandable for a business user).
-- Elaborated and supported documentation process flow based on SME inputs and feedback.
-
-**Skills**:
-
-Jira, Confluence, Snagit, Warehouse Management System (WMS), Microsoft Manual of Style
-
----
+- Maintained the Process Catalogue by documenting and updating Warehouse Management System (WMS) operational processes.
+- Translated technical documentation into user-friendly formats for business users.
+- Designed and supported documentation workflows based on SME inputs and feedback.
 
 ## Bintime: Oct. 2017–Jun. 2018
+---
 
 **Position**: Junior Technical Writer
 
 **Responsibilities**:
 
-- Developed, modified, and maintained developer and end-user documentation in Confluence.
-- Interviewed subject matter experts.
-- Negotiated with the client on documentation requirements.
+- Created, updated, and maintained developer and end-user documentation in Confluence.
+- Interviewed subject matter experts to gather technical details.
+- Collaborated with clients to define and align documentation requirements.
 - Used MySQL queries to examine databases and describe software functionality.
 
-**Skills**:
-
-Jira, Confluence, draw.io, Snagit, Microsoft Manual of Style
-
+## Skills
 ---
+
+* **Technical Skills**: Docs-as-code, GitHub, GitLab, JSON, Markdown.  
+* **Tools**: VS Code, Postman, Jira, Confluence, Snagit, draw.io, Document360, ScreenToGif.  
+* **Guides and Standards**: Google Developer Documentation Style Guide, Microsoft Manual of Style.  
+
+## Education
+---
+
+**University**: National Technical University of Ukraine 'Kyiv Polytechnic Institute’  
+**Years**: 2010–2016  
+**Degree**: Specialist Degree in Biomedical/Medical Engineering
