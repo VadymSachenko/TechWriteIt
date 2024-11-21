@@ -4,10 +4,7 @@ description: Learn about documentation style guides, why you should use them, an
 last_update: 
   date: 9/22/2023
 authors:
-  - name: Vadym Sachenko
-    title: Author, creator, and owner of TechWriteIt
-    url: https://github.com/VadymSachenko
-    image_url: https://github.com/VadymSachenko.png
+  - vadym
 hide_table_of_contents: false
 tags:
   - style guide

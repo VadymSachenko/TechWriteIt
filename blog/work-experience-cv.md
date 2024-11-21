@@ -4,10 +4,7 @@ description: Explore my professional experience.
 last_update: 
   date: 11/21/2024
 authors:
-  - name: Vadym Sachenko
-    title: Tech writer; author, creator, and owner of TechWriteIt
-    url: https://github.com/VadymSachenko
-    image_url: https://github.com/VadymSachenko.png
+  - vadym
 hide_table_of_contents: false
 ---
 

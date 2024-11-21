@@ -4,10 +4,7 @@ description: Learn about the Docs-as-Code methodology, integration, and tools
 last_update: 
   date: 9/14/2023
 authors:
-  - name: Vadym Sachenko
-    title: Author, creator, and owner of TechWriteIt
-    url: https://github.com/VadymSachenko
-    image_url: https://github.com/VadymSachenko.png
+  - vadym
 hide_table_of_contents: false
 tags:
   - docs-as-code

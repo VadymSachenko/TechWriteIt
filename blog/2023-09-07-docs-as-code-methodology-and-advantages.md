@@ -4,10 +4,7 @@ description: Delve into Docs-as-Code specifics and its advantages.
 last_update: 
   date: 9/1/2023
 authors:
-  - name: Vadym Sachenko
-    title: Author, creator, and owner of TechWriteIt
-    url: https://github.com/VadymSachenko
-    image_url: https://github.com/VadymSachenko.png
+  - vadym
 hide_table_of_contents: false
 tags:
   - docs-as-code
