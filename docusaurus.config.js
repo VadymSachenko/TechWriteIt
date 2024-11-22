@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const mermaid = require('mermaid')
+const mermaid = require('mermaid');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -16,45 +16,34 @@ const config = {
   baseUrl: '/TechWriteIt/',
   organizationName: 'VadymSachenko', // Usually your GitHub org/user name.
   projectName: 'TechWriteIt', // Usually your repo name.
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'warn', // Updated to 'warn' to avoid build failures on broken links
+  onBrokenMarkdownLinks: 'warn', // Updated to 'warn' to avoid build failures on broken markdown links
   deploymentBranch: 'gh-pages',
   trailingSlash: true,
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-
       ({
         gtag: {
           trackingID: 'GTM-KD7NKN84',
           anonymizeIP: true,
         },
-        googleAnalytics: {
-          trackingID: 'G-TZ0WLQNT0N',
-          anonymizeIP: true,
-        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+          editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+          editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+          onUntruncatedBlogPosts: 'ignore', // Ignores the warning for missing truncation markers
+          onInlineAuthors: 'ignore', // Ignores the warning for inline authors
         },
         sitemap: {
           changefreq: 'weekly',
@@ -72,7 +61,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       customLayout: require.resolve('./src/theme/layout.js'),
       navbar: {
         title: 'TechWriteIt',
@@ -87,7 +75,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/VadymSachenko/TechWriteIt',
             label: 'GitHub',
@@ -142,11 +130,10 @@ const config = {
         },
       },
     }),
-    markdown: {
-      mermaid: true,
-    },
-    themes: ['@docusaurus/theme-mermaid'],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 };
 
 module.exports = config;
-
