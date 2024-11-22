@@ -78,7 +78,7 @@ The easiest and often suitable approach for most projects is to select an existi
 
 **Interoperability**: Aligning with a widely recognized style guide enhances the likelihood that your documentation will be interoperable with other projects and industry standards, improving usability and acceptance.
 
-**Automated checks**: For well-known style guides like Google and Microsoft, there are ways to adopt them through automation, using tools such as the [Vale linter](https://vale.sh/). If you want to start using Vale, refer to the [Install and configure Vale](/docs/docusaurus/features/install-and-configure-vale) instructions.
+**Automated checks**: For well-known style guides like Google and Microsoft, there are ways to adopt them through automation, using tools such as the [Vale linter](https://vale.sh/).
 
 ### Weaknesses of using an existing style guide
 
@@ -96,4 +96,4 @@ The easiest and often suitable approach for most projects is to select an existi
 
 The decision to create your own style guide or adopt an existing one depends on your project's specific needs, resources, and objectives. While creating a custom style guide offers greater flexibility and control, it comes with the costs of time and effort. Alternatively, automated or manual adoption of existing style guides provides efficiency but may require ongoing learning and vigilance. Ultimately, your choice should align with your documentation goals and your team's capabilities.
 
-Regardless of your choice, chosing and following a style guide is a vital part of documentation development and maintenance. It ensures that your documentation consistently delivers clarity and professionalism, enhances the user experience, and contributes to the success of your projects.
+Regardless of your choice, choosing and following a style guide is a vital part of documentation development and maintenance. It ensures that your documentation consistently delivers clarity and professionalism, enhances the user experience, and contributes to the success of your projects.
