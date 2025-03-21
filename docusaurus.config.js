@@ -11,13 +11,12 @@ const config = {
   tagline: 'Bring your technical writing skills to another level',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://github.com',
   baseUrl: '/TechWriteIt/',
-  organizationName: 'VadymSachenko', // Usually your GitHub org/user name.
-  projectName: 'TechWriteIt', // Usually your repo name.
-  onBrokenLinks: 'warn', // Updated to 'warn' to avoid build failures on broken links
-  onBrokenMarkdownLinks: 'warn', // Updated to 'warn' to avoid build failures on broken markdown links
+  organizationName: 'VadymSachenko',
+  projectName: 'TechWriteIt',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'gh-pages',
   trailingSlash: true,
 
@@ -42,8 +41,8 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
-          onUntruncatedBlogPosts: 'ignore', // Ignores the warning for missing truncation markers
-          onInlineAuthors: 'ignore', // Ignores the warning for inline authors
+          onUntruncatedBlogPosts: 'ignore',
+          onInlineAuthors: 'ignore',
         },
         sitemap: {
           changefreq: 'weekly',
@@ -129,20 +128,25 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-    // algolia: {
-    //   appId: 'YOUR_APP_ID',
-    //   apiKey: 'YOUR_SEARCH_API_KEY',
-    //   indexName: 'YOUR_INDEX_NAME',
-    //   contextualSearch: true,
-    //   externalUrlRegex: 'external\\.com|domain\\.com',
-    //   searchParameters: {},
-    //   searchPagePath: 'search',
-    // },
+      algolia: {
+        appId: 'WMT2IBRD3G',
+        apiKey: '11a171a5242628a66044ecff9a1dd12f',
+        indexName: 'vadymsachenkoio',
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
     }),
+
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+
+  themes: [
+    '@docusaurus/theme-mermaid'
+    '@docusaurus/theme-search-algolia',
+    ],
+  ],
 };
 
 module.exports = config;
