@@ -4,10 +4,100 @@
         <title>TechWriteIt Blog</title>
         <link>https://github.com/TechWriteIt/blog/</link>
         <description>TechWriteIt Blog</description>
-        <lastBuildDate>Wed, 20 Sep 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Mar 2025 16:14:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Work experience (CV)]]></title>
+            <link>https://github.com/TechWriteIt/blog/work-experience-cv/</link>
+            <guid>https://github.com/TechWriteIt/blog/work-experience-cv/</guid>
+            <pubDate>Fri, 21 Mar 2025 16:14:47 GMT</pubDate>
+            <description><![CDATA[Explore my professional experience.]]></description>
+            <content:encoded><![CDATA[<p>On this page, you can get acquainted with my work experience.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="welltech-dec-2023present">Welltech: Dec. 2023–Present<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#welltech-dec-2023present" class="hash-link" aria-label="Direct link to Welltech: Dec. 2023–Present" title="Direct link to Welltech: Dec. 2023–Present">​</a></h2>
+<hr>
+<p><strong>Position</strong>: Senior Technical Writer</p>
+<p><strong>Responsibilities</strong>:</p>
+<ul>
+<li>Developing and integrating a documentation ticket workflow into the development process (Asana+GitLab+Docusaurus+Confluence).</li>
+<li>Building a knowledge base from scratch.</li>
+<li>Writing and maintaining user guides, feature overviews, and concept documents.</li>
+<li>Gathering information and interviewing SMEs to write and update documentation.</li>
+<li>Using AI to create custom scripts and prompts that automate documentation review, updates, and translations (Script+Asana API+GPT/GPT API).</li>
+<li>Conducting end-user surveys to assess satisfaction with documentation.</li>
+</ul>
+<p><strong>Achievements</strong>:</p>
+<ul>
+<li>Created, presented, and integrated documentation delivery processes.</li>
+<li>Automated repetitive tasks, including documentation review, updates, and translation.</li>
+<li>Reduced time spent on release notes writing and delivery by 90% through automation.</li>
+<li>Built a comprehensive knowledge base from scratch.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="spryker-systems-dec-2020aug-2023">Spryker Systems: Dec. 2020–Aug. 2023<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#spryker-systems-dec-2020aug-2023" class="hash-link" aria-label="Direct link to Spryker Systems: Dec. 2020–Aug. 2023" title="Direct link to Spryker Systems: Dec. 2020–Aug. 2023">​</a></h2>
+<hr>
+<p><strong>Position</strong>: Technical Writer</p>
+<p><strong>Responsibilities</strong>:</p>
+<ul>
+<li>Managed developer documentation, ensuring accuracy and clarity.</li>
+<li>Wrote user guides, API documents, and feature overviews.</li>
+<li>Reviewed documentation PRs created by developers, product owners, and other technical writers.</li>
+<li>Tested Postman collections to gather data for documenting APIs.</li>
+<li>Created GIFs to visually demonstrate feature functionality.</li>
+<li>Migrated documentation from Confluence/Document360 to Jekyll+GitHub to implement the docs-as-code approach.</li>
+<li>Handled documentation change requests from internal and external users.</li>
+<li>Shaped and refined the documentation development life cycle (DDLC).</li>
+<li>Used AI (ChatGPT) to improve DDLC and accelerate time-intensive tasks.</li>
+</ul>
+<p><strong>Achievements</strong>:</p>
+<ul>
+<li>Automated repetitive tasks using GitHub Actions workflows.</li>
+<li>Enhanced adherence to the developer documentation style guide by configuring and implementing the Vale.sh linter.</li>
+<li>Automated the "Internal Contributor of the Month" celebration initiative.</li>
+<li>Mentored new technical writers on internal documentation processes and standards.</li>
+<li>Improved the overall developer and business user documentation creation workflow.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="epam-systems-aug-2019dec-2020">EPAM Systems: Aug. 2019–Dec. 2020<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#epam-systems-aug-2019dec-2020" class="hash-link" aria-label="Direct link to EPAM Systems: Aug. 2019–Dec. 2020" title="Direct link to EPAM Systems: Aug. 2019–Dec. 2020">​</a></h2>
+<hr>
+<p><strong>Position</strong>: Technical Writer</p>
+<p><strong>Responsibilities</strong>:</p>
+<ul>
+<li>Conducted editing and quality assurance for documentation produced by instructional designers and developers.</li>
+<li>Collaborated with technical SMEs to ensure technical accuracy of documentation.</li>
+<li>Created and maintained developer instructions, readme files, user guides, security and compliance documents, and high-level architecture diagrams.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kuehne--nagel-jun-2018jul-2019">Kuehne + Nagel: Jun. 2018–Jul. 2019<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#kuehne--nagel-jun-2018jul-2019" class="hash-link" aria-label="Direct link to Kuehne + Nagel: Jun. 2018–Jul. 2019" title="Direct link to Kuehne + Nagel: Jun. 2018–Jul. 2019">​</a></h2>
+<hr>
+<p><strong>Position</strong>: Technical Writer</p>
+<p><strong>Responsibilities</strong>:</p>
+<ul>
+<li>Maintained the Process Catalogue by documenting and updating Warehouse Management System (WMS) operational processes.</li>
+<li>Translated technical documentation into user-friendly formats for business users.</li>
+<li>Designed and supported documentation workflows based on SME inputs and feedback.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bintime-oct-2017jun-2018">Bintime: Oct. 2017–Jun. 2018<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#bintime-oct-2017jun-2018" class="hash-link" aria-label="Direct link to Bintime: Oct. 2017–Jun. 2018" title="Direct link to Bintime: Oct. 2017–Jun. 2018">​</a></h2>
+<hr>
+<p><strong>Position</strong>: Junior Technical Writer</p>
+<p><strong>Responsibilities</strong>:</p>
+<ul>
+<li>Created, updated, and maintained developer and end-user documentation in Confluence.</li>
+<li>Interviewed subject matter experts to gather technical details.</li>
+<li>Collaborated with clients to define and align documentation requirements.</li>
+<li>Used MySQL queries to examine databases and describe software functionality.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="skills">Skills<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#skills" class="hash-link" aria-label="Direct link to Skills" title="Direct link to Skills">​</a></h2>
+<hr>
+<ul>
+<li><strong>Technical Skills</strong>: Docs-as-code, GitHub, GitLab, JSON, Markdown.</li>
+<li><strong>Tools</strong>: VS Code, Postman, Jira, Confluence, Snagit, draw.io, Document360, ScreenToGif.</li>
+<li><strong>Guides and Standards</strong>: Google Developer Documentation Style Guide, Microsoft Manual of Style.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="education">Education<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#education" class="hash-link" aria-label="Direct link to Education" title="Direct link to Education">​</a></h2>
+<hr>
+<p><strong>University</strong>: National Technical University of Ukraine 'Kyiv Polytechnic Institute’<br>
+<strong>Years</strong>: 2010–2016<br>
+<strong>Degree</strong>: Specialist Degree in Biomedical/Medical Engineering</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[What are documentation style guides and why you should use them?]]></title>
             <link>https://github.com/TechWriteIt/blog/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them/</link>
@@ -33,7 +123,7 @@
 <p>Your project's documentation style, format, and other requirements might be highly specific, necessitating a tailored approach. For example, if you work for a healthcare IT company that develops software for medical practitioners, your documentation style guide would need to address strict regulatory requirements for handling patient data. Generic style guides like those from Google or Microsoft may not cover these aspects adequately. Your custom style guide would specify how to document data encryption procedures, user access controls, and compliance with healthcare regulations, ensuring that your documentation aligns with the industry's unique demands. However, designing a custom style guide has its advantages and pitfalls.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="advantages-of-a-custom-style-guide">Advantages of a custom style guide<a href="https://github.com/TechWriteIt/blog/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them/#advantages-of-a-custom-style-guide" class="hash-link" aria-label="Direct link to Advantages of a custom style guide" title="Direct link to Advantages of a custom style guide">​</a></h3>
 <p><strong>Tailored to your technology stack</strong>: Existing style guides like Google's or Microsoft's are generic and may not address the intricacies of your specific technology stack. Your style guide can provide guidance on how to document code snippets, configuration files, and workflows unique to your projects.</p>
-<p><strong>Custom rerminology</strong>: Your projects may use domain-specific terminology or product names not covered by general style guides. A custom style guide allows you to define and standardize the usage of these terms. For instance, if your product uses a unique acronym, your style guide can specify whether to spell it out or use the acronym consistently. In some cases, you may want to supplement an existing style guide with additional rules for specific terms and acronyms.</p>
+<p><strong>Custom terminology</strong>: Your projects may use domain-specific terminology or product names not covered by general style guides. A custom style guide allows you to define and standardize the usage of these terms. For instance, if your product uses a unique acronym, your style guide can specify whether to spell it out or use the acronym consistently. In some cases, you may want to supplement an existing style guide with additional rules for specific terms and acronyms.</p>
 <p><strong>Consistent branding and messaging</strong>: Your company or product may have a distinct brand voice and messaging strategy. A custom style guide ensures that your documentation aligns with your brand identity. For example, if your company emphasizes a friendly and approachable tone, your style guide can include guidelines on using conversational language in documentation.</p>
 <p><strong>Workflows and tools integration</strong>: Your projects may involve specific workflows or tools (e.g., code review processes in GitHub or issue tracking in Jira) that require documentation. A custom style guide can detail how to document these processes effectively, ensuring that your documentation integrates seamlessly with your development and project management tools.</p>
 <p><strong>Compliance and regulations</strong>: Depending on your industry, your documentation may need to adhere to specific compliance standards or regulations, such as GDPR or HIPAA. A custom style guide can provide guidelines for documenting sensitive information, ensuring that your documentation complies with legal requirements.</p>
@@ -237,96 +327,6 @@ Documentation has often been a disjointed and isolated task that occurs at the t
 <p><strong>Streamlined updates</strong>: In traditional documentation processes, updating documents can be a cumbersome task. Docs-as-Code simplifies this by making documentation an integral part of code changes. This ensures that updates are prompt, and changes are well-documented, reducing the chances of information becoming obsolete.</p>
 <p>Compared to the traditional documentation process, Docs-as-Code allows you to bridge the gap between different teams on a project, fostering collaboration and agility while enhancing the quality of documentation. For technical writers, business analysts, project managers, product owners, and developers alike, embracing Docs-as-Code is more than a trend—it's a strategic shift that promises improved project outcomes, streamlined workflows, and documentation that is not just a byproduct but an integral part of the development process.</p>]]></content:encoded>
             <category>docs-as-code</category>
-        </item>
-        <item>
-            <title><![CDATA[Work experience (CV)]]></title>
-            <link>https://github.com/TechWriteIt/blog/work-experience-cv/</link>
-            <guid>https://github.com/TechWriteIt/blog/work-experience-cv/</guid>
-            <pubDate>Tue, 05 Sep 2023 13:07:50 GMT</pubDate>
-            <description><![CDATA[Explore my professional experience.]]></description>
-            <content:encoded><![CDATA[<p>On this page, you can get acquainted with my work experience.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="welltech-dec-2023present">Welltech: Dec. 2023–Present<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#welltech-dec-2023present" class="hash-link" aria-label="Direct link to Welltech: Dec. 2023–Present" title="Direct link to Welltech: Dec. 2023–Present">​</a></h2>
-<hr>
-<p><strong>Position</strong>: Senior Technical Writer</p>
-<p><strong>Responsibilities</strong>:</p>
-<ul>
-<li>Developing and integrating a documentation ticket workflow into the development process (Asana+GitLab+Docusaurus+Confluence).</li>
-<li>Building a knowledge base from scratch.</li>
-<li>Writing and maintaining user guides, feature overviews, and concept documents.</li>
-<li>Gathering information and interviewing SMEs to write and update documentation.</li>
-<li>Using AI to create custom scripts and prompts that automate documentation review, updates, and translations (Script+Asana API+GPT/GPT API).</li>
-<li>Conducting end-user surveys to assess satisfaction with documentation.</li>
-</ul>
-<p><strong>Achievements</strong>:</p>
-<ul>
-<li>Created, presented, and integrated documentation delivery processes.</li>
-<li>Automated repetitive tasks, including documentation review, updates, and translation.</li>
-<li>Reduced time spent on release notes writing and delivery by 90% through automation.</li>
-<li>Built a comprehensive knowledge base from scratch.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="spryker-systems-dec-2020aug-2023">Spryker Systems: Dec. 2020–Aug. 2023<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#spryker-systems-dec-2020aug-2023" class="hash-link" aria-label="Direct link to Spryker Systems: Dec. 2020–Aug. 2023" title="Direct link to Spryker Systems: Dec. 2020–Aug. 2023">​</a></h2>
-<hr>
-<p><strong>Position</strong>: Technical Writer</p>
-<p><strong>Responsibilities</strong>:</p>
-<ul>
-<li>Managed developer documentation, ensuring accuracy and clarity.</li>
-<li>Wrote user guides, API documents, and feature overviews.</li>
-<li>Reviewed documentation PRs created by developers, product owners, and other technical writers.</li>
-<li>Tested Postman collections to gather data for documenting APIs.</li>
-<li>Created GIFs to visually demonstrate feature functionality.</li>
-<li>Migrated documentation from Confluence/Document360 to Jekyll+GitHub to implement the docs-as-code approach.</li>
-<li>Handled documentation change requests from internal and external users.</li>
-<li>Shaped and refined the documentation development life cycle (DDLC).</li>
-<li>Used AI (ChatGPT) to improve DDLC and accelerate time-intensive tasks.</li>
-</ul>
-<p><strong>Achievements</strong>:</p>
-<ul>
-<li>Automated repetitive tasks using GitHub Actions workflows.</li>
-<li>Enhanced adherence to the developer documentation style guide by configuring and implementing the Vale.sh linter.</li>
-<li>Automated the "Internal Contributor of the Month" celebration initiative.</li>
-<li>Mentored new technical writers on internal documentation processes and standards.</li>
-<li>Improved the overall developer and business user documentation creation workflow.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="epam-systems-aug-2019dec-2020">EPAM Systems: Aug. 2019–Dec. 2020<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#epam-systems-aug-2019dec-2020" class="hash-link" aria-label="Direct link to EPAM Systems: Aug. 2019–Dec. 2020" title="Direct link to EPAM Systems: Aug. 2019–Dec. 2020">​</a></h2>
-<hr>
-<p><strong>Position</strong>: Technical Writer</p>
-<p><strong>Responsibilities</strong>:</p>
-<ul>
-<li>Conducted editing and quality assurance for documentation produced by instructional designers and developers.</li>
-<li>Collaborated with technical SMEs to ensure technical accuracy of documentation.</li>
-<li>Created and maintained developer instructions, readme files, user guides, security and compliance documents, and high-level architecture diagrams.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kuehne--nagel-jun-2018jul-2019">Kuehne + Nagel: Jun. 2018–Jul. 2019<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#kuehne--nagel-jun-2018jul-2019" class="hash-link" aria-label="Direct link to Kuehne + Nagel: Jun. 2018–Jul. 2019" title="Direct link to Kuehne + Nagel: Jun. 2018–Jul. 2019">​</a></h2>
-<hr>
-<p><strong>Position</strong>: Technical Writer</p>
-<p><strong>Responsibilities</strong>:</p>
-<ul>
-<li>Maintained the Process Catalogue by documenting and updating Warehouse Management System (WMS) operational processes.</li>
-<li>Translated technical documentation into user-friendly formats for business users.</li>
-<li>Designed and supported documentation workflows based on SME inputs and feedback.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bintime-oct-2017jun-2018">Bintime: Oct. 2017–Jun. 2018<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#bintime-oct-2017jun-2018" class="hash-link" aria-label="Direct link to Bintime: Oct. 2017–Jun. 2018" title="Direct link to Bintime: Oct. 2017–Jun. 2018">​</a></h2>
-<hr>
-<p><strong>Position</strong>: Junior Technical Writer</p>
-<p><strong>Responsibilities</strong>:</p>
-<ul>
-<li>Created, updated, and maintained developer and end-user documentation in Confluence.</li>
-<li>Interviewed subject matter experts to gather technical details.</li>
-<li>Collaborated with clients to define and align documentation requirements.</li>
-<li>Used MySQL queries to examine databases and describe software functionality.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="skills">Skills<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#skills" class="hash-link" aria-label="Direct link to Skills" title="Direct link to Skills">​</a></h2>
-<hr>
-<ul>
-<li><strong>Technical Skills</strong>: Docs-as-code, GitHub, GitLab, JSON, Markdown.</li>
-<li><strong>Tools</strong>: VS Code, Postman, Jira, Confluence, Snagit, draw.io, Document360, ScreenToGif.</li>
-<li><strong>Guides and Standards</strong>: Google Developer Documentation Style Guide, Microsoft Manual of Style.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="education">Education<a href="https://github.com/TechWriteIt/blog/work-experience-cv/#education" class="hash-link" aria-label="Direct link to Education" title="Direct link to Education">​</a></h2>
-<hr>
-<p><strong>University</strong>: National Technical University of Ukraine 'Kyiv Polytechnic Institute’<br>
-<strong>Years</strong>: 2010–2016<br>
-<strong>Degree</strong>: Specialist Degree in Biomedical/Medical Engineering</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
