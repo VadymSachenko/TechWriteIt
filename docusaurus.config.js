@@ -142,7 +142,11 @@ const config = {
     mermaid: true,
   },
 
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid'
+    '@docusaurus/theme-search-algolia',
+    ],
+  ],
 };
 
 module.exports = config;
