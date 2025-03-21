@@ -42,7 +42,7 @@ Your project's documentation style, format, and other requirements might be high
 
 **Tailored to your technology stack**: Existing style guides like Google's or Microsoft's are generic and may not address the intricacies of your specific technology stack. Your style guide can provide guidance on how to document code snippets, configuration files, and workflows unique to your projects.
 
-**Custom rerminology**: Your projects may use domain-specific terminology or product names not covered by general style guides. A custom style guide allows you to define and standardize the usage of these terms. For instance, if your product uses a unique acronym, your style guide can specify whether to spell it out or use the acronym consistently. In some cases, you may want to supplement an existing style guide with additional rules for specific terms and acronyms.
+**Custom terminology**: Your projects may use domain-specific terminology or product names not covered by general style guides. A custom style guide allows you to define and standardize the usage of these terms. For instance, if your product uses a unique acronym, your style guide can specify whether to spell it out or use the acronym consistently. In some cases, you may want to supplement an existing style guide with additional rules for specific terms and acronyms.
 
 **Consistent branding and messaging**: Your company or product may have a distinct brand voice and messaging strategy. A custom style guide ensures that your documentation aligns with your brand identity. For example, if your company emphasizes a friendly and approachable tone, your style guide can include guidelines on using conversational language in documentation.
 
