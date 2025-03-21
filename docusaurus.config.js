@@ -143,9 +143,8 @@ const config = {
   },
 
   themes: [
-    '@docusaurus/theme-mermaid'
+    '@docusaurus/theme-mermaid',
     '@docusaurus/theme-search-algolia',
-    ],
   ],
 };
 
