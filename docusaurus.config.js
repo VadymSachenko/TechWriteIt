@@ -60,7 +60,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      customLayout: require.resolve('./src/theme/layout.js'),
+      // Removed customLayout so that Docusaurus default layout is used
       navbar: {
         title: 'TechWriteIt',
         logo: {
@@ -76,6 +76,15 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            type: 'dropdown',
+            label: 'About',
+            position: 'right',
+            items: [
+              { label: 'Contact', to: '/contact' },
+              { label: 'About Me', to: '/about-me' },
+            ],
+          },
+          {
             href: 'https://github.com/VadymSachenko/TechWriteIt',
             label: 'GitHub',
             position: 'right',
@@ -86,38 +95,50 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
                 label: 'Docs',
-                to: '/docs/about-techwriteit/',
+                to: '/TechWriteIt/docs/category/docusaurus/',
+              },
+              {
+                label: 'Blog',
+                to: '/TechWriteIt/blog/',
               },
             ],
           },
           {
-            title: 'Get in touch',
+            title: 'Contact',
             items: [
               {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/in/vadym-sachenko/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/VadymSachenko/TechWriteIt',
+                label: 'Contact page',
+                href: '/contact',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'GitHub',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub repo',
+                to: 'https://github.com/VadymSachenko/TechWriteIt',
+              },
+              {
+                label: 'Log issue',
+                to: 'https://github.com/VadymSachenko/TechWriteIt/issues/new',
+              },
+              {
+                label: 'Closed issues',
+                to: 'https://github.com/VadymSachenko/TechWriteIt/issues?q=is%3Aissue%20state%3Aclosed',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TechWriteIt, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Vadym Sachenko`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -142,9 +163,7 @@ const config = {
     mermaid: true,
   },
 
-  themes: [
-    '@docusaurus/theme-mermaid',
-  ],
+  themes: ['@docusaurus/theme-mermaid'],
 };
 
 module.exports = config;
