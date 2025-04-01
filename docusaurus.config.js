@@ -81,7 +81,7 @@ const config = {
             position: 'right',
             items: [
               { label: 'Contact', to: '/contact' },
-              { label: 'About Me', to: '/about-me' },
+              { label: 'About me', to: '/about-me' },
             ],
           },
           {
