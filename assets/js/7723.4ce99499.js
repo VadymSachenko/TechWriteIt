@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_write_it=self.webpackChunktech_write_it||[]).push([[7723],{7723:(e,t,c)=>{c.d(t,{createPieServices:()=>i.f});var i=c(8685);c(9369)}}]);
