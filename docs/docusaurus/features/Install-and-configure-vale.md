@@ -1,7 +1,6 @@
 ---
 title: Install and configure Vale
 description: Learn how to install and configure Vale.
-sidebar_position: 1
 last_update: 
   date: 9/12/2023
 ---
