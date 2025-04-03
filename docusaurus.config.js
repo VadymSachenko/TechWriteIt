@@ -11,8 +11,8 @@ const config = {
   tagline: 'Bring your technical writing skills to another level',
   favicon: 'img/favicon.ico',
 
-  url: 'https://github.com',
-  baseUrl: '/TechWriteIt/',
+  url: 'https://techwriteit.com',
+  baseUrl: '/',
   organizationName: 'VadymSachenko',
   projectName: 'TechWriteIt',
   onBrokenLinks: 'warn',
