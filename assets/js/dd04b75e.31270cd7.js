@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_write_it=self.webpackChunktech_write_it||[]).push([[1672],{3024:e=>{e.exports=JSON.parse('{"authors":[{"name":"Vadym Sachenko","title":"Author, creator, and owner of TechWriteIt","url":"https://github.com/VadymSachenko","imageURL":"https://github.com/VadymSachenko.png","key":"vadym","page":null,"count":4}]}')}}]);
