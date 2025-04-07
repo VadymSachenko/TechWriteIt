@@ -30,9 +30,8 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        gtag: {
-          trackingID: 'GTM-TD8R3VXT', 
-          anonymizeIP: true,
+        googleTagManager: {
+          containerId: 'GTM-TD8R3VXT',
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
