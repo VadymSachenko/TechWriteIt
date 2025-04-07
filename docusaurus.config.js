@@ -31,7 +31,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         gtag: {
-          trackingID: 'GTM-KD7NKN84',
+          trackingID: 'GTM-TD8R3VXT', 
           anonymizeIP: true,
         },
         docs: {
@@ -60,7 +60,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Removed customLayout so that Docusaurus default layout is used
       navbar: {
         title: 'TechWriteIt',
         logo: {
