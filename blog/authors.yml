@@ -1,6 +1,7 @@
 vadym:
   name: Vadym Sachenko
-  title: Author, creator, and owner of TechWriteIt 
+  title: Tech writer, creator, and owner of TechWriteIt 
   url: https://github.com/VadymSachenko
   image_url: https://github.com/VadymSachenko.png
-
+  socials:
+    linkedin: https://www.linkedin.com/in/vadym-sachenko/
