@@ -13,13 +13,15 @@ tags:
 keywords: [icons, documentation, Iconify, Docusaurus, user guides, integration]
 ---
 
+ In this article, I'll share my experience with Iconify and provide a guide on how to install it in your Docusaurus project.
+
 [Iconify](https://icon-sets.iconify.design/) is a tool that provides access to an extensive library of over 200,000 icons from various open-source icon sets. It allows you to embed icons as SVGs, ensuring they are scalable and customizable through CSS. This means you can easily adjust design, color, and size to match your project's style without the hassle of editing individual image files. With Iconify, integrating a vast range of icons into your digital content becomes straightforward and efficient.
 
 ![Iconify page](/blog/2025-04-04-enhancing-user-guides-with-iconify.md/iconify-page.png)
 
-When I first started incorporating icons into my user guides, I quickly realized the challenges of managing them as static images. The process was cumbersome and time-consuming, especially when maintaining consistency. I began searching for a more efficient solution that required minimal manual intervention. When I came across Iconify. 
+When I first started incorporating icons into my user guides, I quickly realized the challenges of managing them as static images. The process was cumbersome and time-consuming, especially when maintaining consistency. I began searching for a more efficient solution that required minimal manual intervention, and that's when I came across Iconify. 
 
-The initial installation wasn't straightforward—it didn't work out of the box for my project. After some experimentation and discussions with GPT, I successfully integrated Iconify. My first use of Iconify was within our internal documentation portal, followed by this very blog. Having struggled initially, my second attempt at integration was effortless, as I knew exactly what steps to follow. In this article, I'll share my experience with Iconify and provide a guide on how to install it in your Docusaurus project.
+The initial installation wasn't straightforward—it didn't work out of the box for my project. After some experimentation and discussions with GPT, I successfully integrated Iconify. My first use of Iconify was within our internal documentation portal, followed by this very blog. Having struggled initially, my second attempt at integration was effortless, as I knew exactly what steps to follow.
 
 ## Where to use Iconify icons
 
