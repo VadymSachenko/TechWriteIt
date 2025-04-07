@@ -1,7 +1,6 @@
 ---
-title: Install Mermaid
+title: Integrate Mermaid
 description: Learn how to install Mermaid in your project 
-sidebar_position: 2
 last_update: 
   date: 9/11/2023
 ---
