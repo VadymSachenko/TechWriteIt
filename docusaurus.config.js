@@ -97,11 +97,11 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/TechWriteIt/docs/category/docusaurus/',
+                to: '/docs/category/docusaurus/',
               },
               {
                 label: 'Blog',
-                to: '/TechWriteIt/blog/',
+                to: '/blog',
               },
             ],
           },
