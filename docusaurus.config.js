@@ -34,7 +34,8 @@ const config = {
           containerId: 'GTM-TD8R3VXT',
         },
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          // Main Docs configuration
+          sidebarPath: require.resolve('./sidebars/sidebar-docs.js'),
           editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
         },
         blog: {
@@ -56,6 +57,28 @@ const config = {
     ],
   ],
 
+  // Add a new docs plugin instance for the "AI & Technical Writing" section.
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tw-ai', // Unique id for this docs instance
+        path: 'tw-ai', // Folder containing your "AI & Technical Writing" content
+        routeBasePath: 'tw-ai', // URL path, e.g., https://techwriteit.com/tw-ai
+        sidebarPath: require.resolve('./sidebars/sidebar-ai-technical-writing.js'),
+        editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+      },
+    ],
+  ],
+
+  scripts: [
+    {
+      // Optional: if you want to include additional scripts (e.g., GTM)
+      content: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TD8R3VXT');`,
+      async: true,
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -66,6 +89,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          // Main docs section
           {
             type: 'docSidebar',
             sidebarId: 'docsSidebar',
@@ -73,6 +97,14 @@ const config = {
             label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          // New "AI & Technical Writing" section
+          {
+            type: 'docSidebar',
+            docsPluginId: 'ai-tw', // Reference the new instance
+            sidebarId: 'aiTechnicalWritingSidebar', // Should match the key in your sidebar file
+            position: 'left',
+            label: 'AI & Technical Writing',
+          },
           {
             type: 'dropdown',
             label: 'About',
