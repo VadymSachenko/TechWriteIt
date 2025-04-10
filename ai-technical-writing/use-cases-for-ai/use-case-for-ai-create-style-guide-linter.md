@@ -22,4 +22,6 @@ To address these chellengase I a two-step-approach:
 1. Templating
 2. Style guiding.
 
+## Templating
+
 
