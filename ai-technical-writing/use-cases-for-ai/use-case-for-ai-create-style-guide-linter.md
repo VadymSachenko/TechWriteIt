@@ -9,8 +9,7 @@ last_update:
 In this article, I want you to show you how you can create linting tool and a template that will proofread and write dococuments according to [Google developer style guide](https://developers.google.com/style) and a specific template.
 
 Writing of overviews, summaries, user guides, and feat overviews is probably one of the most popular ways AI tools such as ChatGPT, Claude, Gemini are used. 
-Those are damn smart LLMs and they can serve you well but, unfortunatelly  they can't "git clone" your minds to please yourself in the way you want it.
-However, you can teach and train them to generate what you want and how you want it.
+Those are damn smart LLMs and they can serve you well but, unfortunatelly  they can't "git clone" your minds to please yourself in the way you want it. Which means the can't work as you want until you teach and train them to generate what you want and how you want it.
 
 One of the frequent tasks I have to fulfil is writing and proofreading different documents.
 As a rule, as a technical writer you choose (sometines create) and follow a style guide.
