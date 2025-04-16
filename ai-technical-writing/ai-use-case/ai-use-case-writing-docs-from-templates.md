@@ -33,14 +33,14 @@ As a technical writer, to document configuration fields, exceptions, and behavio
 - Subject-matter expert interviews covering key points, specifics, and edge cases of the template configuration
 
 In this scenario, your steps would be as follows:
-1. Prepare the first document
-2. Create a template for ChatGPT
-3. Upload all necessary files
-4. Test and refine the prompt
+1. [Prepare the first document](#prepare-your-first-document).
+2. [Create a document template for ChatGPT](#create-an-ai-documentation-template)
+3. [Upload all necessary files](#upload-supporting-documentation)
+4. [Test and refine the prompt](#test-and-refine-your-ai-prompts)
 
 These steps are covered in detail in the following sections.
 
-### 1. Prepare your first document
+### Prepare your first document
 
 Create the first demo document and get approval from your team. You'll later use it as a basis to create a template for ChatGPT.
 The document must be complete and cover all aspects:
@@ -48,7 +48,7 @@ The document must be complete and cover all aspects:
 - **Content completeness:** Ensure you've documented all configuration options, edge cases, and dependencies.
 - **Visual elements:** Include relevant screenshots and diagrams showing how configurations look in both the Back Office and when rendered on the page.
 
-### 2. Create an AI documentation template
+### Create an AI documentation template
 
 To get documents with the desired structure, create a markdown template for the AI to use when generating documents.
 Preparing a good template is a time-consuming process because you need to think through everything. It's like creating a detailed guide for the AI that covers all steps in detail. 
@@ -59,9 +59,9 @@ Here are general rules to follow to write a good template:
 - **Use placeholders:** If the document has a static text where only part of it needs to change, use placeholders indicating the dynamic word or phrase, followed by explanation which values should it be replaced with. Use one placeholder for the same word or phrase. For example, the following sentence has a placeholder that indicates that the AI must replace it with a template name: `This document describes Back Office configs of the {TEMPLATE_NAME} template. Replace {TEMPLATE_NAME} with a template name from the input data. Example: demo_config`,
 - **Provide examples of desired output:** Upload your document so that the model can put everything together and thus have a more complete understanding of what you want. Example: `The attached markdown document describes Back Office configs of the demo_config template.`
 - **Define structure rules:** Specify how headings should be formatted, what sections are required, and how content should be organized. This helps the AI maintain consistency across all generated documents.
-- **Include style guide requirements:** Add specific formatting rules, such as how to format code snippets, when to use bold or italic text, and how to structure lists. You can either move out the rules into a separate document or add them under the template in the same file. This ensures the AI follows your company's style guide.
+- **Include style guide requirements:** Add specific formatting rules, such as how to format code snippets, when to use bold or italic text, and how to structure lists. You can either move out the rules into a separate document or add them under the template in the same file. This ensures the AI follows your company's [style guide](/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them/).
 
-### 3. Write effective AI prompts
+### Write effective AI prompts
 
 Once the template is ready, prepare a prompt that gives the AI clear step-by-step instructions. Here are general rules for writing a good prompt:
 
@@ -70,11 +70,11 @@ Once the template is ready, prepare a prompt that gives the AI clear step-by-ste
 - **Upload a template:** The most important step is to provide a Markdown template and point the AI to it explicitly. For example, `Follow the structure and rules from the uploaded configuration_parameters_template.md markdown sample file`
 - **Ask for clarifications:** Instruct the AI to request more details if needed. This helps ensure no critical information is overlooked. For example, `Confirm any clarifications you need before starting`
 
-### 4. Upload supporting documentation
+### Upload supporting documentation
 
 Provide the AI with all necessary information so that it has context for filling out the template: a JSON schema, descriptions of Jira tickets, interview transcription, screenshots, a sample document, and so on. Ensure that the data is consistent and up to date.
 
-### 5. Test and refine your AI prompts
+### Test and refine your AI prompts
 
 Having a good prompt doesn't guarantee the desired result. Testing and refinement are crucial steps in the process. Here's how to approach this:
 
