@@ -162,6 +162,36 @@ const config = {
   },
 
   themes: ['@docusaurus/theme-mermaid'],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/blog/2023/09/14/docs-as-code-process-and-tools',
+            to: '/2023/09/14/docs-as-code-process-and-tools',
+          },
+          {
+            from: '/blog/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them',
+            to: '/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them',
+          },
+          {
+            from: '/blog/2023/09/08/setting-up-a-documentation-development-process',
+            to: '/2023/09/08/setting-up-a-documentation-development-process',
+          },
+          {
+            from: '/blog/2023/09/07/docs-as-code-methodology-and-advantages',
+            to: '/2023/09/07/docs-as-code-methodology-and-advantages',
+          },
+          {
+            from: '/blog/2025/04/04/enhancing-user-guides-with-iconify',
+            to: '/2025/04/04/enhancing-user-guides-with-iconify',
+          }
+        ],
+      },
+    ],
+  ],
 };
 
 module.exports = config;

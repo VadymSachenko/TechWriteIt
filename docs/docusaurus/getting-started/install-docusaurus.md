@@ -12,7 +12,7 @@ This document shows how to install Docusaurus locally.
 Docusaurus is an open-source documentation framework developed by Facebook that simplifies the process of creating and maintaining documentation websites. 
 This guide walks you through the steps to install Docusaurus locally on your development machine. 
 
-For more information about Docusaurus and more detailed instructions, see [official Docusaurus documentation](https://docusaurus.io/docs/2.1.0).
+For more information about Docusaurus and more detailed instructions, see [Docusaurus documentation](https://docusaurus.io/docs).
 
 ## Prerequisites
 
