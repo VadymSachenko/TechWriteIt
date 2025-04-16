@@ -84,9 +84,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Docusaurus',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/', label: 'Blog', position: 'left' },
           {
             // "AI & Technical Writing" section item
             type: 'docSidebar',
@@ -94,15 +94,6 @@ const config = {
             sidebarId: 'aiTechnicalWritingSidebar', // Must match what's exported from sidebar-ai-technical-writing.js
             position: 'left',
             label: 'AI & Technical Writing',
-          },
-          {
-            type: 'dropdown',
-            label: 'About',
-            position: 'right',
-            items: [
-              { label: 'Contact', to: '/contact' },
-              { label: 'About me', to: '/about-me' },
-            ],
           },
           {
             href: 'https://github.com/VadymSachenko/TechWriteIt',
@@ -118,12 +109,12 @@ const config = {
             title: 'Links',
             items: [
               {
-                label: 'Docs',
+                label: 'Docusaurus',
                 to: '/docs/category/docusaurus/',
               },
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
               },
             ],
           },
@@ -133,10 +124,6 @@ const config = {
               {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/in/vadym-sachenko/',
-              },
-              {
-                label: 'Contact page',
-                href: '/contact',
               },
             ],
           },
@@ -161,7 +148,7 @@ const config = {
         copyright: `© ${new Date().getFullYear()} Vadym Sachenko`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
       docs: {
