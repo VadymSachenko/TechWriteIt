@@ -4,6 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const mermaid = require('mermaid');
+const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,6 +26,19 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'aiTw',
+        path: 'ai-technical-writing',
+        routeBasePath: 'ai-technical-writing',
+        sidebarPath: require.resolve('./sidebars/sidebar-ai-technical-writing.js'),
+        editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -34,7 +48,7 @@ const config = {
           containerId: 'GTM-TD8R3VXT',
         },
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars/sidebar-docs.js'),
           editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
         },
         blog: {
@@ -42,6 +56,13 @@ const config = {
           editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
           onUntruncatedBlogPosts: 'ignore',
           onInlineAuthors: 'ignore',
+          routeBasePath: '/',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All posts',
+        },
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '/pages',
         },
         sitemap: {
           changefreq: 'weekly',
@@ -70,16 +91,30 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Docusaurus',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/', label: 'Blog', position: 'left' },
+          {
+            // "AI & Technical Writing" section item
+            type: 'docSidebar',
+            docsPluginId: 'aiTw',                 // Must match the plugin "id" above
+            sidebarId: 'aiTechnicalWritingSidebar', // Must match what's exported from sidebar-ai-technical-writing.js
+            position: 'left',
+            label: 'AI & Technical Writing',
+          },
           {
             type: 'dropdown',
             label: 'About',
             position: 'right',
             items: [
-              { label: 'Contact', to: '/contact' },
-              { label: 'About me', to: '/about-me' },
+              {
+                to: '/pages/about-me',
+                label: 'About Me',
+              },
+              {
+                to: '/pages/contact',
+                label: 'Contact',
+              },
             ],
           },
           {
@@ -96,12 +131,12 @@ const config = {
             title: 'Links',
             items: [
               {
-                label: 'Docs',
+                label: 'Docusaurus',
                 to: '/docs/category/docusaurus/',
               },
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
               },
             ],
           },
@@ -111,10 +146,6 @@ const config = {
               {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/in/vadym-sachenko/',
-              },
-              {
-                label: 'Contact page',
-                href: '/contact',
               },
             ],
           },

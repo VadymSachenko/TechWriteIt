@@ -29,7 +29,7 @@ yarn add @iconify/react
 
 At `src/theme/`, create a file named `MDXComponents.js` with the following code:
 
-```jsx
+```jsx title="src/theme/MDXComponents.js"
 import React from 'react';
 // Import the original MDX components mapping from Docusaurus
 import MDXComponents from '@theme-original/MDXComponents';
