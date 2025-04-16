@@ -5,6 +5,7 @@ last_update:
   date: 4/16/2025
 ---
 
+import RenderedTemplateExample from '@site/references/templates/RenderedTemplateExample.md';
 import ConfigurationTemplate from '@site/references/templates/ConfigurationTemplateExampleForAI.md';
 import RawTemplateExample from '@site/references/templates/RawTemplateExample.md';
 import Tabs from '@theme/Tabs';
@@ -64,7 +65,7 @@ Here are general rules to follow to write a good template:
 
 Once the template is ready, prepare a prompt that gives the AI clear step-by-step instructions. Here are general rules for writing a good prompt:
 
-- **Clarify your goal:**: Start by stating the exact outcome you want. If you need a specific document format, highlight that before anything—`the output must be a markdown code block opened using four backticks`
+- **Clarify your goal:**: Start by stating the exact outcome you want. If you need a specific document format, highlight that before anything—`the output must be a markdown code block`
 - **Provide relevant context:** Explain the use case and why the output matters. Mention or upload any background information references, such as conversations, images, or specific requirements the AI should factor in. `Incorporate all relevant details from the attached JSON schema, images, and transcript`
 - **Upload a template:** The most important step is to provide a Markdown template and point the AI to it explicitly. For example, `Follow the structure and rules from the uploaded configuration_parameters_template.md markdown sample file`
 - **Ask for clarifications:** Instruct the AI to request more details if needed. This helps ensure no critical information is overlooked. For example, `Confirm any clarifications you need before starting`
@@ -114,7 +115,7 @@ This example focuses on documenting a template configuration, but the same princ
 ```markdown
 Create a single Markdown file named t-demo-config.md. Incorporate all relevant details from the attached JSON schema, images, and transcript.
 Your goal is to document the configuration parameters for the demo_config template following the structure and rules from the uploaded configuration-template.md markdown sample file.
-The output must be a markdown code block opened using four backticks. Please confirm any clarifications you need before starting.
+The output must be a markdown code block. Please confirm any clarifications you need before starting.
 ```
 
 **Attached files:** 
@@ -134,14 +135,14 @@ The output must be a markdown code block opened using four backticks. Please con
 ### Response example
 
 <Tabs>
-  <TabItem value="raw" label="Raw text" default>
+  <TabItem value="raw" label="Raw template text" default>
 
 <RawTemplateExample />
 
   </TabItem>
   <TabItem value="rendered" label="Rendered template">
 
-![Rendered template](/ai-technical-writing/ai-use-case/ai-use-case-writing-docs-from-templates.md/rendered-template-example.png)
+<RenderedTemplateExample />
 
   </TabItem>
 </Tabs>

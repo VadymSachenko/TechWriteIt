@@ -1,13 +1,23 @@
 ---
-title: Use cases for AI
-description: Section for AI use cases
+title: AI use cases
+description: Explore practical applications of AI in technical writing and documentation
 last_update: 
   date: 4/10/2025
 ---
 
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
-If you know how to use AI tools, they give you indeed wonderful opportunities and make you incomarably more productive compared to when you approach your tasks with an old-fashned mind-set.
-AI is not just a simple help tool which can proofread your user guide, explain code, generate a funny image from your pormt, or write a basic isstruction that helps you solve installation issue because google takes more time.
-No, AI can do much more than that and what it is frequently depends on your creativity, promting skills and task structurization.
+Artificial Intelligence has transformed the landscape of technical writing, offering unprecedented opportunities for enhancing productivity and efficiency. While many view AI as a basic assistance tool for tasks like proofreading, code explanation, or generating simple instructions, its potential extends far beyond these conventional applications. The true power of AI lies in its ability to adapt to complex documentation needs, provided you understand how to structure tasks and craft effective prompts.
 
-This seaction of my blog is devoted to the use cases showcasing how you can lavarage AI tools to make yourself more productive and safe time—time that we have so little—for what really matters.
+This section explores practical applications of AI in technical writing, demonstrating how these tools can:
+- Streamline documentation processes
+- Enhance content quality
+- Optimize time management
+- Support complex documentation tasks
+
+Through real-world examples and case studies, we'll examine how technical writers can harness AI's capabilities to focus on high-value tasks while automating routine aspects of documentation.
+
+## Available AI use cases
+
+<DocCardList items={useCurrentSidebarCategory().items} />

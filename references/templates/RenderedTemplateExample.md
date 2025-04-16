@@ -1,10 +1,4 @@
-```markdown
----
-title: Template t__demo_template configuration parameters
-description: Example documentation showing how a typical template might be documented
-last_update:
-  date: 4/14/2025
----
+# Template t__demo_template configuration parameters
 
 This document explains the configuration parameters of the `t__demo_template` template, including descriptions, example values, and visual references to how the configurations might appear.
 
@@ -79,4 +73,4 @@ The **Score Variations** block lets you define several result screens triggered 
 
 ## Related documents
 
-- [Configure t__demo_template](/docs/templates/t-demo-template.md#usage)
+- [Configure t__demo_template](/ai-technical-writing/ai-use-case/ai-use-case-writing-docs-from-templates.md)

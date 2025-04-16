@@ -10,7 +10,7 @@
   --ifm-color-primary-dark: #1D33E0;  /* A darker shade */
   --ifm-color-primary-darker: #1B2FCB;  /* An even darker shade */
   --ifm-color-primary-darkest: #182BB6;  /* The darkest shade */
-  --ifm-color-primary-light: #3A47FF;  /* A lighter shade */
+  --ifm-color-primary-light: #3A4fff7FF;  /* A lighter shade */
   --ifm-color-primary-lighter: #5860FF;  /* An even lighter shade */
   --ifm-color-primary-lightest: #787DFF;  /* The lightest shade */
   --ifm-code-font-size: 95%;
@@ -38,10 +38,11 @@
   font-family: 'Chakra Petch', sans-serif;
 }
 
-/* Custom CSS for tag-like elements */
+/* Custom CSS for tag-like elements 
 .tag {
-  background-color: #787DFF;
+  background-color: #ffffff;
   padding: 2px 6px;
   border-radius: 15px;
   margin-right: 5px;
 }
+*/
