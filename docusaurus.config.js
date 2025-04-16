@@ -4,6 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const mermaid = require('mermaid');
+const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,6 +26,19 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'aiTw',
+        path: 'ai-technical-writing',
+        routeBasePath: 'ai-technical-writing',
+        sidebarPath: require.resolve('./sidebars/sidebar-ai-technical-writing.js'),
+        editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -42,6 +56,13 @@ const config = {
           editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
           onUntruncatedBlogPosts: 'ignore',
           onInlineAuthors: 'ignore',
+          routeBasePath: '/',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All posts',
+        },
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '/pages',
         },
         sitemap: {
           changefreq: 'weekly',
@@ -53,20 +74,6 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
-    ],
-  ],
-
-  // New docs plugin instance for the "TW + AI" section.
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'aiTw', // The unique ID for this second plugin
-        path: 'ai-technical-writing',
-        routeBasePath: 'ai-technical-writing',
-        sidebarPath: require.resolve('./sidebars/sidebar-ai-technical-writing.js'),
-        editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
-      },
     ],
   ],
 
@@ -94,6 +101,21 @@ const config = {
             sidebarId: 'aiTechnicalWritingSidebar', // Must match what's exported from sidebar-ai-technical-writing.js
             position: 'left',
             label: 'AI & Technical Writing',
+          },
+          {
+            type: 'dropdown',
+            label: 'About',
+            position: 'right',
+            items: [
+              {
+                to: '/pages/about-me',
+                label: 'About Me',
+              },
+              {
+                to: '/pages/contact',
+                label: 'Contact',
+              },
+            ],
           },
           {
             href: 'https://github.com/VadymSachenko/TechWriteIt',
@@ -148,7 +170,7 @@ const config = {
         copyright: `© ${new Date().getFullYear()} Vadym Sachenko`,
       },
       prism: {
-        theme: darkCodeTheme,
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
       docs: {

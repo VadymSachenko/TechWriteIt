@@ -34,7 +34,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.7.0",
-    "@iconify-icon/react": "^2.3.0"
+    "@iconify-icon/react": "^2.3.0",
+    "rehype-react": "^8.0.0"
   },
   "browserslist": {
     "production": [
