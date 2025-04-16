@@ -5,14 +5,13 @@ last_update:
   date: 4/16/2025
 ---
 
-
 import ConfigurationTemplate from '@site/references/templates/ConfigurationTemplateExampleForAI.md';
 import RawTemplateExample from '@site/references/templates/RawTemplateExample.md';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Writing of overviews, summaries, user guides, release notes, and feature overviews is probably one of the most popular ways AI tools such as ChatGPT, Claude, Gemini are used by tech writers.
-However, the AI can't yet just scan your mind and instantly generate the output you want. To get the desired results, you need to provide clear instructions and structure. This article shows you how to do that by walking you through a practical use case of using ChatGPT for technical documentation. You'll learn how to:
+Writing overviews, summaries, user guides, release notes, and feature overviews is one of the most popular ways technical writers use AI tools such as ChatGPT, Claude, and Gemini.
+However, AI cannot yet scan your mind and instantly generate the desired output. To achieve the results you want, you need to provide clear instructions and structure. This article demonstrates how to do this by walking you through a practical use case of using ChatGPT for technical documentation. You'll learn how to:
 - Create templates for consistent document structure
 - Write effective prompts that guide the AI
 - Prepare and organize supporting materials
@@ -23,38 +22,38 @@ The article includes a real-world example of documenting template configurations
 ## Use case scenario: AI-powered documentation templates
 
 Your company regularly creates dozens of templates, which are available in Back Office. Your marketing team uses these templates to create visually appealing HTML pages.
-Depending on the team's marketing strategy they choose and configure these templates in the back office: upload images, add texts and colors, set up rules for dynamicaly changing text, and so on.
-Some confiurations are straighforward, while others are move sophisticated, have dependencies from other tempates, limitation, and edge cases that are not obvoius, especially to newcomers.
+Depending on the team's marketing strategy they choose and configure these templates in the back office: upload images, add texts and colors, set up rules for dynamically changing text, and so on.
+Some configurations are straightforward, while others are more sophisticated, have dependencies from other templates, limitations, and edge cases that are not obvious, especially to newcomers.
 
-As a technical writer, to write documentation explaining configuration fields, exceptions, and behavior specifics for each template, you gather the following information:
-- JSON file defining a template's structure in the Back Office and configuration field headings.
-- Information from Jira tickets—each template has one of several tickets containing all information needed for writing the document
-- Screenshots with Back Office configurations and how they look when configred and rendered on an HTML page.
-- Subject-matter expert interview, where they cover key points, specifics, and edge cases of the template configuration. 
+As a technical writer, to document configuration fields, exceptions, and behavior specifics for each template, you gather all information about a new template, which may include the following:
+- JSON file defining a template's structure in the Back Office and configuration field headings
+- Information from Jira tickets—each template has one or several tickets containing all information needed for writing the document
+- Screenshots of Back Office configurations and how they look when configured and rendered on an HTML page
+- Subject-matter expert interviews covering key points, specifics, and edge cases of the template configuration
 
 In this scenario, your steps would be as follows:
-1. Prepare first document
+1. Prepare the first document
 2. Create a template for ChatGPT
 3. Upload all necessary files
 4. Test and refine the prompt
 
-These steps are covered in details in the following sections.
+These steps are covered in detail in the following sections.
 
-### 1. Prepare your first AI-generated document
+### 1. Prepare your first document
 
-Create the first demo document and get approval from your team. 
+Create the first demo document and get approval from your team. You'll later use it as a basis to create a template for ChatGPT.
 The document must be complete and cover all aspects:
-- **Finalized structure**: Think thorough all the structure details: introduction, prerequisites, notes, screenshots, configuration steps, reference links.
-- **Content completeness**: Make sure you've documented all configuration options, edge cases, and dependencies. This helps the AI understand the full scope of what needs to be documented.
-- **Visual elements**: Include relevant screenshots and diagrams that show how configurations look in both the Back Office and when rendered on the page. This helps the AI understand the visual context.
+- **Finalized structure:** Think through all the structure details: introduction, prerequisites, notes, screenshots, configuration steps, and reference links.
+- **Content completeness:** Ensure you've documented all configuration options, edge cases, and dependencies.
+- **Visual elements:** Include relevant screenshots and diagrams showing how configurations look in both the Back Office and when rendered on the page.
 
 ### 2. Create an AI documentation template
 
-To get documents with the desired structure, create a markdown template so that AI can use it to generate documents.
-Preparing a good template is a time-consuming process because you need to think through all the everything. It's like a detailed guide for the AI that covers all steps in details. 
-Recommended approach is to take your document, go through it line by line, leaving detailed instructions and adding examples and placeholders where you want AI to replace or add something specific. 
+To get documents with the desired structure, create a markdown template for the AI to use when generating documents.
+Preparing a good template is a time-consuming process because you need to think through everything. It's like creating a detailed guide for the AI that covers all steps in detail. 
+The recommended approach is to take your document, go through it line by line, leaving detailed instructions and adding examples and placeholders where you want the AI to replace or add something specific.
 
-Here're are general rules you need to follow to write good template:
+Here are general rules to follow to write a good template:
 
 - **Use placeholders:** If the document has a static text where only part of it needs to change, use placeholders indicating the dynamic word or phrase, followed by explanation which values should it be replaced with. Use one placeholder for the same word or phrase. For example, the following sentence has a placeholder that indicates that the AI must replace it with a template name: `This document describes Back Office configs of the {TEMPLATE_NAME} template. Replace {TEMPLATE_NAME} with a template name from the input data. Example: demo_config`,
 - **Provide examples of desired output:** Upload your document so that the model can put everything together and thus have a more complete understanding of what you want. Example: `The attached markdown document describes Back Office configs of the demo_config template.`
@@ -63,17 +62,16 @@ Here're are general rules you need to follow to write good template:
 
 ### 3. Write effective AI prompts
 
-Once the template is ready, prepare a prompt that gives the AI step-by-step instructions clearly explaining. Here are general rules to have a good propt:
+Once the template is ready, prepare a prompt that gives the AI clear step-by-step instructions. Here are general rules for writing a good prompt:
 
-- **Clarify your goal:** Start by stating the exact outcome you want. If you need a specific document format, highlight that before anything—`the output must be a markdown code block opened using four backticks`.
-- **Provide relevant context:** Explain the use case and why the output matters. Mention or upload any background information references, such as conversations, images, or specific requirements the AI should factor in. `Incorporate all relevant details from the attached JSON schema, images, and transcript`.
-- **Upload a template:** Most important steps is to provide a Markdown template and point the AI to it explicitly. For example, `Follow the structure and rules from the uploaded configuration_parameters_template.md markdown sample file.`
-- **Explicitly state the goal:**
-- **Ask for clarifications:** Instruct the AI to request more details if needed. This helps ensure no critical information is overlooked. For example, `Confirm any clarifications you need before starting`.
+- **Clarify your goal:**: Start by stating the exact outcome you want. If you need a specific document format, highlight that before anything—`the output must be a markdown code block opened using four backticks`
+- **Provide relevant context:** Explain the use case and why the output matters. Mention or upload any background information references, such as conversations, images, or specific requirements the AI should factor in. `Incorporate all relevant details from the attached JSON schema, images, and transcript`
+- **Upload a template:** The most important step is to provide a Markdown template and point the AI to it explicitly. For example, `Follow the structure and rules from the uploaded configuration_parameters_template.md markdown sample file`
+- **Ask for clarifications:** Instruct the AI to request more details if needed. This helps ensure no critical information is overlooked. For example, `Confirm any clarifications you need before starting`
 
 ### 4. Upload supporting documentation
 
-Provide the AI with all necessary information so that it has context for filling out the template: a JSON schema, descriptions of Jira tickets, interview transcription, screenshots, and so on. Ensure that the data is consistent and up to date. 
+Provide the AI with all necessary information so that it has context for filling out the template: a JSON schema, descriptions of Jira tickets, interview transcription, screenshots, a sample document, and so on. Ensure that the data is consistent and up to date.
 
 ### 5. Test and refine your AI prompts
 
@@ -101,7 +99,7 @@ Remember that refining prompts is an ongoing process. As you work with different
 
 ## Example prompt, template and result
 
-This section demonstrates the practical application of the techniques discussed in preceeding sections:
+This section demonstrates the practical application of the techniques discussed in preceding sections:
 - A complete prompt that incorporates all the best practices we've covered
 - The template structure used to guide the AI
 - The final output showing how the AI processed the information
@@ -113,8 +111,8 @@ This example focuses on documenting a template configuration, but the same princ
 
 **Prompt text:**
 
-```markdown theme="dark"
-Create a single Markdown file named t-demo-config.md.Incorporate all relevant details from the attached JSON schema, images, and transcript.
+```markdown
+Create a single Markdown file named t-demo-config.md. Incorporate all relevant details from the attached JSON schema, images, and transcript.
 Your goal is to document the configuration parameters for the demo_config template following the structure and rules from the uploaded configuration-template.md markdown sample file.
 The output must be a markdown code block opened using four backticks. Please confirm any clarifications you need before starting.
 ```
@@ -122,7 +120,7 @@ The output must be a markdown code block opened using four backticks. Please con
 **Attached files:** 
 - JSON schema, info from Jira tickets
 - Screenshot of a rendered template
-- Sreenshot of the template's configuration fields in the Back Office.
+- Screenshot of the template's configuration fields in the Back Office
 
 **Template:**
 
