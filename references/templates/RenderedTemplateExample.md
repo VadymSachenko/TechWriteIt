@@ -73,4 +73,4 @@ The **Score Variations** block lets you define several result screens triggered 
 
 ## Related documents
 
-- [Configure t__demo_template](/ai-technical-writing/ai-use-case/ai-use-case-writing-docs-from-templates)
+- [Configure t__demo_template](ai-technical-writing/ai-use-case/ai-use-case-writing-docs-from-templates)

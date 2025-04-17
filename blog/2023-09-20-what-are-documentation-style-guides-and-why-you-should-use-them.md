@@ -11,7 +11,7 @@ tags:
   - beginner
 ---
 
-In this article, I would like to discuss style guides, their role in the [documentation development process](/blog/2023-09-08-setting-up-a-documentation-development-process.md), and the pros and cons of existing style guides and custom ones.
+In this article, I would like to discuss style guides, their role in the [documentation development process](/2023-09-08-setting-up-a-documentation-development-process.md), and the pros and cons of existing style guides and custom ones.
 
 Similar to the software development process, where a team follows sequential steps to develop and deliver a product, documentation requires a similar approach. However, in addition to the need for a well-defined documentation development process, documents also require consistency, which is ensured by a style guide. 
 

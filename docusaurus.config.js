@@ -26,19 +26,6 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'aiTw',
-        path: 'ai-technical-writing',
-        routeBasePath: 'ai-technical-writing',
-        sidebarPath: require.resolve('./sidebars/sidebar-ai-technical-writing.js'),
-        editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
-      },
-    ],
-  ],
-
   presets: [
     [
       'classic',
@@ -59,6 +46,10 @@ const config = {
           routeBasePath: '/',
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'All posts',
+          blogTitle: 'Blog',
+          blogDescription: 'Technical writing articles and guides',
+          postsPerPage: 10,
+          exclude: ['**/archive/**'],
         },
         pages: {
           path: 'src/pages',
@@ -77,6 +68,46 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'aiTw',
+        path: 'ai-technical-writing',
+        routeBasePath: 'ai-technical-writing',
+        sidebarPath: require.resolve('./sidebars/sidebar-ai-technical-writing.js'),
+        editUrl: 'https://github.com/VadymSachenko/TechWriteIt/edit/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/blog/2023/09/14/docs-as-code-process-and-tools',
+            to: '/2023/09/14/docs-as-code-process-and-tools',
+          },
+          {
+            from: '/blog/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them',
+            to: '/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them',
+          },
+          {
+            from: '/blog/2023/09/08/setting-up-a-documentation-development-process',
+            to: '/2023/09/08/setting-up-a-documentation-development-process',
+          },
+          {
+            from: '/blog/2023/09/07/docs-as-code-methodology-and-advantages',
+            to: '/2023/09/07/docs-as-code-methodology-and-advantages',
+          },
+          {
+            from: '/blog/2025/04/04/enhancing-user-guides-with-iconify',
+            to: '/2025/04/04/enhancing-user-guides-with-iconify',
+          }
+        ],
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -88,17 +119,21 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'docsSidebar',
+            type: 'doc',
+            docId: 'docusaurus/getting-started/install-docusaurus',
             position: 'left',
             label: 'Docusaurus',
           },
-          { to: '/', label: 'Blog', position: 'left' },
+          { 
+            to: '/', 
+            label: 'Blog', 
+            position: 'left',
+            activeBaseRegex: '^/$|^/\\d{4}/\\d{2}/\\d{2}/',
+          },
           {
-            // "AI & Technical Writing" section item
             type: 'docSidebar',
-            docsPluginId: 'aiTw',                 // Must match the plugin "id" above
-            sidebarId: 'aiTechnicalWritingSidebar', // Must match what's exported from sidebar-ai-technical-writing.js
+            docsPluginId: 'aiTw',
+            sidebarId: 'aiTechnicalWritingSidebar',
             position: 'left',
             label: 'AI & Technical Writing',
           },
@@ -193,36 +228,6 @@ const config = {
   },
 
   themes: ['@docusaurus/theme-mermaid'],
-
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            from: '/blog/2023/09/14/docs-as-code-process-and-tools',
-            to: '/2023/09/14/docs-as-code-process-and-tools',
-          },
-          {
-            from: '/blog/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them',
-            to: '/2023/09/20/what-are-documentation-style-guides-and-why-you-should-use-them',
-          },
-          {
-            from: '/blog/2023/09/08/setting-up-a-documentation-development-process',
-            to: '/2023/09/08/setting-up-a-documentation-development-process',
-          },
-          {
-            from: '/blog/2023/09/07/docs-as-code-methodology-and-advantages',
-            to: '/2023/09/07/docs-as-code-methodology-and-advantages',
-          },
-          {
-            from: '/blog/2025/04/04/enhancing-user-guides-with-iconify',
-            to: '/2025/04/04/enhancing-user-guides-with-iconify',
-          }
-        ],
-      },
-    ],
-  ],
 };
 
 module.exports = config;

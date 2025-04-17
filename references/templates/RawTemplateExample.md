@@ -79,4 +79,5 @@ The **Score Variations** block lets you define several result screens triggered 
 
 ## Related documents
 
-- [Configure t__demo_template](/docs/templates/t-demo-template.md#usage)
+- [Configure t__demo_template](/docs/templates/configure-t-demo-template.md)
+```
