@@ -12,8 +12,17 @@ function isExternalLink(link) {
   return link.startsWith('http://') || link.startsWith('https://');
 }
 
+function isTemplateFile(filePath) {
+  return filePath.includes('templates/');
+}
+
 async function checkLinks(filePath) {
   try {
+    // Skip template files
+    if (isTemplateFile(filePath)) {
+      return { file: filePath, brokenLinks: [], skipped: true };
+    }
+
     const markdown = fs.readFileSync(filePath, 'utf8');
     const config = {
       ignorePatterns: [
@@ -50,14 +59,22 @@ async function main() {
     console.log(`Found ${files.length} markdown files to check.\n`);
     console.log('Checking external links only. Internal links are checked by Docusaurus build.\n');
     console.log('Note: LinkedIn links are ignored due to rate limiting.\n');
+    console.log('Note: Template files are skipped as they contain example links.\n');
     
     let totalBrokenLinks = 0;
     let filesWithErrors = 0;
+    let skippedFiles = 0;
     
     for (const file of files) {
       process.stdout.write(`Checking ${file}...\n`);
       
       const result = await checkLinks(file);
+      
+      if (result.skipped) {
+        console.log('Skipped (template file)\n');
+        skippedFiles++;
+        continue;
+      }
       
       if (result.error) {
         console.error(`Error in ${file}: ${result.error}\n`);
@@ -77,6 +94,7 @@ async function main() {
     
     console.log('\nSummary:');
     console.log(`Total files checked: ${files.length}`);
+    console.log(`Files skipped (templates): ${skippedFiles}`);
     console.log(`Files with errors: ${filesWithErrors}`);
     console.log(`Total broken external links found: ${totalBrokenLinks}`);
     
