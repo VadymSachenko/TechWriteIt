@@ -11,7 +11,7 @@ tags:
   - medium
 ---
 
-In my previous article, [Docs-as-Code Methodology and Advantages](/blog/2023-09-07-docs-as-code-methodology-and-advantages.md), I provided an overview of the Docs-as-Code methodology and its general advantages. In this article, I will delve into the specific benefits of integrating Docs-as-Code, discuss the tools used, present an example of the Docs-as-Code workflow in your team's development process, and explain the significance of Docs-as-Code tools.
+In my previous article, [Docs-as-Code Methodology and Advantages](/2023-09-07-docs-as-code-methodology-and-advantages.md), I provided an overview of the Docs-as-Code methodology and its general advantages. In this article, I will delve into the specific benefits of integrating Docs-as-Code, discuss the tools used, present an example of the Docs-as-Code workflow in your team's development process, and explain the significance of Docs-as-Code tools.
 
 ## Integrating Docs-as-Code
 
@@ -48,7 +48,7 @@ Let's dive into a practical example of how the Docs-as-Code documentation develo
 
 :::tip
 
-To get a better understanding of this example, I recommend first reading the [Setting a documentation development process](/blog/2023-09-08-setting-up-a-documentation-development-process.md).
+To get a better understanding of this example, I recommend first reading the [Setting a documentation development process](/2023-09-08-setting-up-a-documentation-development-process.md).
 
 :::
 

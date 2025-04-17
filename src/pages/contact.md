@@ -4,7 +4,7 @@ Please use this page to get in touch with me. Depending on your needs, choose th
 
 ## Feedback
 
-If you have any questions, suggestions, or feedback, please fill out the form below and I’ll get back to you as soon as possible.
+If you have any questions, suggestions, or feedback, please fill out the form below and I'll get back to you as soon as possible.
 
 <form action="https://formspree.io/f/xyzenygj" method="POST">
   <label htmlFor="email">
@@ -25,5 +25,6 @@ If you have any questions, suggestions, or feedback, please fill out the form be
 
 If you’d simply like to connect or discuss potential opportunities, you can also reach me through social media:
 
-[<Icon icon="skill-icons:instagram" height="48" />](https://www.instagram.com/vadym.sachenko/) [<Icon icon="devicon:linkedin" height="48" />](https://www.linkedin.com/in/vadym-sachenko/)
+[<Icon icon="skill-icons:instagram" height="48" />](https://www.instagram.com/vadym.sachenko/)
+[<Icon icon="devicon:linkedin" height="48" />](https://www.linkedin.com/in/vadym-sachenko/)
     
