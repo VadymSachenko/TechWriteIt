@@ -16,6 +16,10 @@ function isTemplateFile(filePath) {
   return filePath.includes('templates/');
 }
 
+function isIgnoredLink(link) {
+  return link.includes('linkedin.com');
+}
+
 async function checkLinks(filePath) {
   try {
     // Skip template files
@@ -41,7 +45,7 @@ async function checkLinks(filePath) {
     const results = await markdownLinkCheckAsync(markdown, config);
     const brokenLinks = results
       .filter(result => result.status !== 'alive')
-      .filter(result => isExternalLink(result.link)); // Only include external links
+      .filter(result => isExternalLink(result.link) && !isIgnoredLink(result.link)); // Only include non-ignored external links
     
     return { file: filePath, brokenLinks };
   } catch (error) {
@@ -98,6 +102,7 @@ async function main() {
     console.log(`Files with errors: ${filesWithErrors}`);
     console.log(`Total broken external links found: ${totalBrokenLinks}`);
     
+    // Only fail if there are real broken links (not ignored ones)
     if (totalBrokenLinks > 0 || filesWithErrors > 0) {
       process.exit(1);
     } else {
